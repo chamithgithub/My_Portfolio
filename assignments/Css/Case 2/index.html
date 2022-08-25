@@ -49,6 +49,29 @@
             position: relative;
             margin-top:70px;
         }
+        main>section>section:first-child{
+           border: 1px solid red;
+            height: 200px;
+            position: relative;
+        }
+        main>section>section:first-child>div{
+            /*border: 1px solid green;*/
+            height: 100%;
+            width: calc(100%/3);
+            position: absolute;
+        }
+        main>section>section:first-child>div:nth-child(1){
+            background: url("assets/img/hhh.PNG");
+            left: 0;
+        }
+        main>section>section:first-child>div:nth-child(2){
+            background: url("assets/img/uiu.PNG");
+            left: calc(100%/3);
+        }
+        main>section>section:first-child>div:nth-child(3){
+            background: url("assets/img/Capture.PNG");
+            right: 0;
+        }
         main>nav{
             position: absolute;
             background-color: #520080;
