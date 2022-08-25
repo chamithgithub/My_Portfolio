@@ -8,9 +8,14 @@
     <link href="assets/img/ff.PNG" rel="icon">
     <style>
         header {
+            height: 70px;
+            position: fixed;
             background-color: white;
             border: 1px solid black;
+            width: 100%;
+            top: 0;
             box-shadow: 1px 1px 6px 1px black;
+            z-index: 2;
         }
 
         header > img {
@@ -18,6 +23,7 @@
             position: relative;
             top: 0;
             left: 15px;
+
         }
 
         header > nav {
@@ -41,20 +47,28 @@
 
         main{
             position: relative;
+            margin-top:70px;
         }
         main>nav{
             position: absolute;
             background-color: #520080;
-            border: 1px solid deeppink;
+            /*border: 1px solid deeppink;*/
             top:0;
             bottom: 0;
             width: 260px;
 
         }
         main>nav>ul>li{
+
+           left: 30px;
+            padding: 10px;
+            font-size: 20px;
             color: white;
+            list-style: none;
+            cursor: pointer;
         }
         main>section{
+            border: 1px solid dimgray;
             margin-left: 260px;
             padding: 10px;
         }
@@ -66,7 +80,10 @@
             text-align: center;
             margin-top:0 ;
             padding: 5px;
-
+        }
+        main>section>section>p{
+            color: black;
+            font-family: Arial;
         }
 
     </style>
@@ -108,6 +125,8 @@
         </section>
 
         <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, atque blanditiis culpa cumque debitis ducimus eveniet illum ipsum, libero nisi officiis provident repellat repudiandae, ut voluptates? Quasi recusandae sequi totam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, atque blanditiis culpa cumque debitis ducimus eveniet illum ipsum, libero nisi officiis provident repellat repudiandae, ut voluptates? Quasi recusandae sequi totam!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, atque blanditiis culpa cumque debitis ducimus eveniet illum ipsum, libero nisi officiis provident repellat repudiandae, ut voluptates? Quasi recusandae sequi totam!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, atque blanditiis culpa cumque debitis ducimus eveniet illum ipsum, libero nisi officiis provident repellat repudiandae, ut voluptates? Quasi recusandae sequi totam!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, atque blanditiis culpa cumque debitis ducimus eveniet illum ipsum, libero nisi officiis provident repellat repudiandae, ut voluptates? Quasi recusandae sequi totam!</p>
