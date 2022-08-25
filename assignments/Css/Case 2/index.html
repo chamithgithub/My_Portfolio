@@ -10,7 +10,7 @@
         header {
             background-color: white;
             border: 1px solid black;
-            box-shadow: 1px 2px 3px 3px black;
+            box-shadow: 1px 1px 6px 1px black;
         }
 
         header > img {
@@ -35,19 +35,39 @@
         }
 
         section {
-            border: 2px solid blueviolet;
+            /*border: 2px solid blueviolet;*/
             position: relative;
         }
 
-        /*section > div {*/
-        /*    position: absolute;*/
-        /*    border: blue;*/
-        /*    background-color: yellow;*/
-        /*    top: 0;*/
-        /*    bottom: 0;*/
-        /*    width: 300px;*/
-        /*    left: 0;*/
-        /*}*/
+        main{
+            position: relative;
+        }
+        main>nav{
+            position: absolute;
+            background-color: #520080;
+            border: 1px solid deeppink;
+            top:0;
+            bottom: 0;
+            width: 260px;
+
+        }
+        main>nav>ul>li{
+            color: white;
+        }
+        main>section{
+            margin-left: 260px;
+            padding: 10px;
+        }
+        footer{
+            height: 35px;
+            background-color: dimgray;
+        }
+        footer>h3{
+            text-align: center;
+            margin-top:0 ;
+            padding: 5px;
+
+        }
 
     </style>
 </head>
@@ -68,18 +88,28 @@
         <ul>
             <li>Home</li>
             <li>Services</li>
+            <li>Contract</li>
             <li>About Us</li>
+
         </ul>
 
     </nav>
     <section>
         <section>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
         </section>
 
         <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, atque blanditiis culpa cumque debitis ducimus eveniet illum ipsum, libero nisi officiis provident repellat repudiandae, ut voluptates? Quasi recusandae sequi totam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, atque blanditiis culpa cumque debitis ducimus eveniet illum ipsum, libero nisi officiis provident repellat repudiandae, ut voluptates? Quasi recusandae sequi totam!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, atque blanditiis culpa cumque debitis ducimus eveniet illum ipsum, libero nisi officiis provident repellat repudiandae, ut voluptates? Quasi recusandae sequi totam!</p>
         </section>
 
@@ -87,6 +117,7 @@
     </section>
 
 </main>
+
 <footer>
 <h3>Develop By IJSE</h3>
 </footer>
