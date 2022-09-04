@@ -7,6 +7,38 @@
     <meta name="viewport" content="width=device-width initial-scale=1">
     <link href="assets/img/Capture.PNG" rel="icon">
     <link rel="stylesheet" href="assets/fonts/css/all.css">
+    <style>
+        section {
+            width: 230px;
+            height: 500px;
+            position: relative;
+            top: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            right: 175px;
+        }
+
+        section > div {
+            left: 0;
+            position: relative;
+            height: 50px;
+            width: 100%;
+            background-color: #8a12ba;
+            color: white;
+            box-shadow: 3px 2px 5px 1px rgba(29, 27, 47, 0.62);
+            cursor: pointer;
+            transition-property: all;
+            transition-duration: 1s;
+        }
+
+
+        section > div:hover {
+            left: 175px;
+            transition-property: all;
+            transition-duration: 1s;
+        }
+    </style>
 </head>
 <body>
 <section>
