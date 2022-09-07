@@ -26,6 +26,8 @@
             height: 100%;
             width: 400%;
             display: flex;
+
+
         }
         main>section>div{
             /*border: 2px solid yellow;*/
@@ -54,6 +56,21 @@
             background: url("assets/img/7.jpg");
             background-size: cover;
             background-position:center;
+
+        }
+        @keyframes slider-animation {
+            0%{
+                transform: translateX(0);
+            }
+            25%{
+                transform: translateX(-25%);
+            }
+            50%{
+                transform: translateX(-50%);
+            }
+            100%{
+                transform: translateX(-75%);
+            }
 
         }
 
