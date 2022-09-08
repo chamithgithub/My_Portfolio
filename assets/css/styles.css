@@ -9,6 +9,12 @@ body{
     backdrop-filter: blur(50px);
     z-index: 100;
 }
+#header > section {
+    position: relative;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
 
 
 
