@@ -100,3 +100,13 @@ body > main {
     animation-duration: 8s;
     animation-direction: alternate;
 }
+@keyframes p{
+    from{
+        left: 100%;
+    }
+    to{
+        left: 0;
+    }
+}
+
+
