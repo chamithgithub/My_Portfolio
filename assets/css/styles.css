@@ -39,3 +39,9 @@ section > nav > ul > li {
     font-size: 22px;
 }
 
+/*---------------home--------------*/
+body > main {
+    position: relative;
+}
+
+
