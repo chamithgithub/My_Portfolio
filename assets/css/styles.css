@@ -6,7 +6,8 @@ body{
     top: 0;
     width: 100%;
     height: 55px;
-
+    backdrop-filter: blur(50px);
+    z-index: 100;
 }
 
 
