@@ -16,5 +16,12 @@ body{
     margin-right: 15px;
 }
 
+#header > section > div > h3 {
+    position: absolute;
+    font-size: 25px;
+    left: 8px;
+    top: 8px;
+    margin: auto;
+}
 
 
