@@ -70,3 +70,15 @@ body > main {
     background-image: url("../img/my pic.jpg");
     background-size: cover;
 }
+#home > aside:nth-child(2) > h3 {
+    position: relative;
+    font-size: 50px;
+    top: -50px;
+    color: #206D99;
+    margin-bottom: -22px;
+    animation-name: h3;
+    animation-duration: 8s;
+    animation-direction: alternate;
+
+}
+
