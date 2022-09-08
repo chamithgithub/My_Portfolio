@@ -50,5 +50,12 @@ body > main {
     background-color: #11cb79;
 }
 
+#home {
+    background-color: #E9ECEF;
+    margin-top: 60px;
+    height: 86vh;
+    top: 50px;
+    box-shadow: 1px 1px 5px 5px #282626;
 
-
+    border: solid black 2px;
+}
