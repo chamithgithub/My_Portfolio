@@ -43,5 +43,12 @@ section > nav > ul > li {
 body > main {
     position: relative;
 }
+.main-section {
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #11cb79;
+}
+
 
 
