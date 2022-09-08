@@ -15,7 +15,9 @@ body{
     margin-left: 5px;
     margin-right: 15px;
 }
+#home>aside>hr{
 
+}
 #header > section > div > h3 {
     position: absolute;
     font-size: 25px;
@@ -23,5 +25,11 @@ body{
     top: 8px;
     margin: auto;
 }
+header > section > nav > ul {
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    right: 0;
+    list-style: none;
 
-
+}
