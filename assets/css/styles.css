@@ -56,6 +56,17 @@ body > main {
     height: 86vh;
     top: 50px;
     box-shadow: 1px 1px 5px 5px #282626;
-
     border: solid black 2px;
+}
+#home > aside>aside {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    margin-top: -130px;
+    right: 6%;
+    border-radius: 50%;
+    border: 10px solid #d70e3d;
+    /*margin-top: 20%;*/
+    background-image: url("../img/my pic.jpg");
+    background-size: cover;
 }
