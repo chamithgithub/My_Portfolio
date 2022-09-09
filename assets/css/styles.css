@@ -125,7 +125,10 @@ body > main {
     left: 60px;
     top: 40px;
 }
+#about > article > h2 {
 
+    color: #e30b0b;
+}
 
 
 /*---services-----*/
