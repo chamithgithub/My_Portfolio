@@ -131,8 +131,14 @@ body > main {
     font-size: 30px;
     color: #e30b0b;
 }
-#about > article > h2 > p1{
+#about > article > h2 >p1{
     color: #1627c6;
+}
+#about > article > p {
+    color: #111111;
+    font-size: 23px;
+    line-height: 1.5;
+    padding-left: 100px;
 }
 
 
