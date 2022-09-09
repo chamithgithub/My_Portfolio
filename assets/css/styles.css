@@ -140,6 +140,11 @@ body > main {
     line-height: 1.5;
     padding-left: 100px;
 }
+#about > aside {
+    height: 200px;
+    width: 400px;
+    margin: auto;
+}
 
 
 /*---services-----*/
