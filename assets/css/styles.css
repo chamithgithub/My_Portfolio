@@ -131,6 +131,9 @@ body > main {
     font-size: 30px;
     color: #e30b0b;
 }
+#about > article > h2 > p1{
+    color: #1627c6;
+}
 
 
 /*---services-----*/
