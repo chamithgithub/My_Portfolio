@@ -163,7 +163,11 @@ body > main {
     padding-left: 20px;
     white-space: pre;
 }
-
+#about > aside > dl > dd > b {
+    position: relative;
+    right: 20px;
+    color: #ff0000;
+}
 
 
 /*---services-----*/
