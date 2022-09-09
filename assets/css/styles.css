@@ -118,18 +118,20 @@ body > main {
     box-shadow: 1px 1px 5px 5px #282626;
     border: solid black 2px;
 }
-#about > h2 {
-    bottom: 50px;
+#about > article {
+    position: relative;
+    width: 53%;
+    height: max-content;
+    left: 60px;
+    top: 40px;
 }
+
+
 
 /*---services-----*/
 #services {
     background-color: #E9ECEF;
-    margin-top: 10px;
-    height: 86vh;
-    top: 50px;
-    box-shadow: 1px 1px 5px 5px #282626;
-    border: solid black 2px;
+
 }
 
 /*---Skills-----*/
