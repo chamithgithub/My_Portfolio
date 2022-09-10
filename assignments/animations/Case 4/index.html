@@ -15,6 +15,40 @@
             background-position: center;
             overflow-x: hidden;
         }
+        body > main > section:first-child {
+            height: 100%;
+            width: 100%;
+
+            animation-name: road-sky-animation;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function: linear;
+        }
+        /*city*/
+
+        @keyframes road-sky-animation {
+            0% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-25%);
+            }
+
+            50% {
+                transform: translateX(-40%);
+            }
+
+            75% {
+                transform: translateX(-50%);
+            }
+
+            100% {
+                transform: translateX(-55%);
+            }
+        }
+
 
     </style>
 </head>
