@@ -211,6 +211,13 @@ body > main {
 #services > section:nth-child(4) {
     right: 0;
 }
+.service-p1 {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    color: #1f1d1d;
+    font-size: 25px;
+}
 
 
 /*---Skills-----*/
