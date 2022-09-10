@@ -199,6 +199,11 @@ body > main {
     transition-duration: 1s;
 
 }
+#services > section >div{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+}
 
 #services > section:nth-child(2) {
     left: 0;
