@@ -45,6 +45,16 @@
             background-position: center;
         }
         /*moving container*/
+        body > main > section:first-child {
+            height: 100%;
+            width: 300%;
+
+            animation-name: road-sky-animation;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function: linear;
+        }
 
 
         @keyframes road-sky-animation {
@@ -68,6 +78,7 @@
                 transform: translateX(-55%);
             }
         }
+
 
 
     </style>
