@@ -204,7 +204,13 @@ body > main {
     width: 250px;
     margin: auto;
 }
-
+.service-img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 30px;
+    margin-right: 0;
+}
 #services > section:nth-child(2) {
     left: 0;
 }
@@ -229,7 +235,7 @@ body > main {
     padding-left: 50px;
     padding-right: 50px;
     margin: 0;
-    top: 20px;
+    top: 15px;
     font-size: 22px;
     color: #d221de;
     line-height: 1.3;
