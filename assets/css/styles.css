@@ -190,6 +190,17 @@ body > main {
     transition-duration: 1s;
 }
 
+#services > section:nth-child(2) {
+    left: 0;
+}
+#services > section:nth-child(3) {
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#services > section:nth-child(4) {
+    right: 0;
+}
 
 /*---Skills-----*/
 #Skills {
