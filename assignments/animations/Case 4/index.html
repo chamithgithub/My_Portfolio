@@ -71,6 +71,50 @@
             background-position: center;
         }
 
+        /*car wheel 1*/
+        body > main > section:last-child>div:nth-child(2) {
+            /*border: 2px solid red;*/
+            position: absolute;
+            left: 230px;
+            right: 0;
+            top: 480px;
+            margin: auto;
+            width: 77px;
+            height: 76px;
+            border-radius: 100%;
+
+            background-image: url("assets/img/wheel.png");
+            background-size: cover;
+            background-position: center;
+
+            animation-name: wheel1-animation;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        /*car wheel 2*/
+        body > main > section:last-child>div:nth-child(3){
+            /*border: 2px solid red;*/
+            position: absolute;
+            left: -259px;
+            right: 0;
+            top: 480px;
+            margin: auto;
+            width: 77px;
+            height: 76px;
+            border-radius: 100%;
+
+            background-image: url("assets/img/wheel.png");
+            background-size: cover;
+            background-position: center;
+
+            animation-name: wheel2-animation;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
 
         @keyframes road-sky-animation {
             0% {
@@ -93,6 +137,7 @@
                 transform: translateX(-55%);
             }
         }
+
 
 
     </style>
