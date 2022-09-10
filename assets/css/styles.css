@@ -179,6 +179,17 @@ body > main {
     box-shadow: 2px 2px 2px 2px #282626;
     border: solid black 2px;
 }
+#services > section {
+    position: absolute;
+    box-shadow: 10px 13px 8px -5px #282626;
+    background-color: #D9D9D9;
+    width: calc(90% / 3);
+    height: 400px;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
 
 /*---Skills-----*/
 #Skills {
