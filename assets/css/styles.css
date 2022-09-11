@@ -392,8 +392,14 @@ left: 1%;
 /*---Education-----*/
 #Education {
     background-color: #E9ECEF;
-
+    margin-top: 10px;
+    height: 86vh;
+    top: 50px;
+    box-shadow: 2px 2px 2px 2px #e00808;
+    border: solid black 2px;
 }
+
+
 /*---hobby-----*/
 #hobby {
     background-color: #E9ECEF;
