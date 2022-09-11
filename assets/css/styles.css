@@ -295,6 +295,10 @@ body > main {
     margin: auto;
 }
 
+#skills > div:nth-child(4) {
+    right: 1%;
+}
+
 
 
 
