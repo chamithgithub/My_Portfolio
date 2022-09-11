@@ -332,8 +332,14 @@ body > main {
 /*---Projects-----*/
 #Projects {
     background-color: #E9ECEF;
+    margin-top: 10px;
+    height: 86vh;
+    top: 50px;
+    box-shadow: 2px 2px 2px 2px #282626;
+    border: solid black 2px;
 
 }
+
 
 
 /*---Education-----*/
