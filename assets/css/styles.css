@@ -374,6 +374,11 @@ left: 1%;
     left: 0;
     margin: auto;
 }
+#Projects >section:nth-child(4){
+
+    left:calc((51% / 5)*2);
+    bottom: 0;
+}
 
 
 
