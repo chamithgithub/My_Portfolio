@@ -265,6 +265,9 @@ body > main {
     transition-duration: 1s;
 }
 
+
+
+
 .skills-img {
     position: relative;
     width: 20%;
@@ -286,6 +289,11 @@ body > main {
     left: 1%;
 }
 
+#skills > div:nth-child(3) {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
 
 
