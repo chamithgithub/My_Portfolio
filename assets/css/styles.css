@@ -354,6 +354,15 @@ body > main {
     color: white;
     font-size: 18px;
 }
+.project-img {
+    position: relative;
+    border-radius: 5%;
+    width: 80%;
+    height: 30%;
+    top: 10px;
+    left:10%;
+
+}
 
 
 /*---Education-----*/
