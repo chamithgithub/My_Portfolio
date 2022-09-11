@@ -347,6 +347,13 @@ body > main {
     width: calc(95% / 5);
     height: 300px;
 }
+.project-tittle {
+    position: relative;
+    text-align: center;
+    top: 10px;
+    color: white;
+    font-size: 18px;
+}
 
 
 /*---Education-----*/
