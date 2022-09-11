@@ -366,6 +366,11 @@ body > main {
     opacity: 90%;
 }
 
+#Projects >section:nth-child(2){
+left: 1%;
+}
+
+
 
 /*---Education-----*/
 #Education {
