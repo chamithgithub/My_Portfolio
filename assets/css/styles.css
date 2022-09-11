@@ -379,6 +379,10 @@ left: 1%;
     left:calc((51% / 5)*2);
     bottom: 0;
 }
+#Projects >section:nth-child(5){
+    left: 60%;
+
+}
 
 
 
