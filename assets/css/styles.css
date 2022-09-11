@@ -383,7 +383,10 @@ left: 1%;
     left: 60%;
 
 }
+#Projects >section:nth-child(6){
+    right: 1%;
 
+}
 
 
 /*---Education-----*/
