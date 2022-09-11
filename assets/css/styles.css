@@ -299,6 +299,12 @@ body > main {
     right: 1%;
 }
 
+#skills > div:nth-child(5) {
+    bottom: 47%;
+    left: 1%;
+}
+
+
 
 
 
