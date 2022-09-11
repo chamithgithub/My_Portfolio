@@ -265,6 +265,16 @@ body > main {
     transition-duration: 1s;
 }
 
+.skill-div2 {
+    position: relative;
+
+}
+.skills-h1 {
+    position: relative;
+    text-align: center;
+    color: #1a1717;
+    font-size: 35px;
+}
 
 
 
