@@ -311,6 +311,12 @@ body > main {
     margin: auto;
 }
 
+#skills > div:nth-child(7) {
+    right: 1%;
+    bottom:47%;
+}
+
+
 
 
 /*---Projects-----*/
