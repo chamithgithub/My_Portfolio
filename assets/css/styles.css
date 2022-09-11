@@ -369,6 +369,11 @@ body > main {
 #Projects >section:nth-child(2){
 left: 1%;
 }
+#Projects >section:nth-child(3){
+    right: 0;
+    left: 0;
+    margin: auto;
+}
 
 
 
