@@ -266,6 +266,16 @@ body > main {
 }
 
 
+
+
+.skills-img {
+    position: relative;
+    width: 20%;
+    height: 40%;
+    left: 20px;
+    bottom: 30px;
+}
+
 .skill-div1:hover{
     background-image:  linear-gradient(90deg, rgb(46, 29, 165) 0%, rgb(33, 217, 14) 100%);
     cursor:pointer;
