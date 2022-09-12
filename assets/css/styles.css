@@ -15,22 +15,23 @@ body{
     margin-left: 5px;
     margin-right: 15px;
 }
-#home>aside>hr{
 
-}
 #header > section > div > h3 {
     position: absolute;
     font-size: 25px;
     left: 8px;
     top: 8px;
     margin: auto;
+
 }
 header > section > nav > ul {
     position: absolute;
     margin: auto;
-    top: 20px;
+    top: 10px;
     right: 0;
     list-style: none;
+    padding-left: 80px;
+
 
 }
 section > nav > ul > li {
@@ -42,79 +43,118 @@ section > nav > ul > li {
 /*---------------home--------------*/
 body > main {
     position: relative;
-}
-.main-section {
-    position: relative;
-    margin-left: 25px;
-    margin-right: 25px;
-    background-color: #11cb79;
+
+
 }
 
 #home {
+    margin-top: 50px;
     background-color: #E9ECEF;
-    margin-top: 60px;
-    height: 86vh;
-    top: 50px;
-    box-shadow: 1px 1px 5px 5px #282626;
+    height: 50vw;
+    top:100vw;
     border: solid black 2px;
+
 }
+
 #home > aside>aside {
-    position: absolute;
-    width: 15vw;
-    height: 15vw;
-    margin-top: -130px;
-    right: 6%;
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    bottom: 0;
+    right: -65%;
+    margin-top: -20vw;
     border-radius: 50%;
-    border: 10px solid #d70e3d;
-    /*margin-top: 20%;*/
+    border: 1vw solid #d70e3d;
     background-image: url("../img/my pic.jpg");
     background-size: cover;
+    z-index: 1;
+    margin-right: 0;
 }
 #home > aside:nth-child(2) > h3 {
     position: relative;
-    font-size: 50px;
-    top: -50px;
+    font-size: 4vw;
+    top: 5vw;
+    /*right: -22%;*/
     color: #206D99;
-    margin-bottom: -22px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 22%;
     animation-name: h3;
     animation-duration: 8s;
     animation-direction: alternate;
+
 
 }
 
 @keyframes h3 {
     from{
-        left: -60%;
+        margin-left: 20%;
     }
     to{
-        left: 0;
+        margin-right: 20%;
     }
 }
 #home > aside:nth-child(2) > p{
     position: relative;
-    color: white;
-    top: -32px;
-    font-size: 3vw;
-    margin-bottom: -30px;
+    color: #2b2323;
+    top: 5vw;
+margin-left: 5%;
+    font-size: 5vw;
+    margin-top: -10px;
+
     animation-name: p;
     animation-duration: 8s;
     animation-direction: alternate;
 }
 @keyframes p{
     from{
-        left: 100%;
+        margin-left: 20%;
     }
     to{
-        left: 0;
+        margin-right: 20%;
     }
 }
+#home > aside:nth-child(2) > h1{
+    position: relative;
+    font-size: 2vw;
+    top: 2vw;
+    /*left: 15%;*/
+    margin-left: 15%;
+    margin-top: -10px;
 
+}
+#home>aside>div>p{
+    background-color: #4DBABA;
+    border-radius: 8px;
+    width: 47vw;
+    height: 3vw;
+    position: relative;
+    font-size: 2vw;
+    padding-top: 8px;
+    color: white;
+    top: 8vw;
+    /*left: 8%;*/
+    margin-left: 8%;
+    margin-top: 1px;
+    padding-left: 1%;
+}
+#home>aside>nav>img {
+    position: relative;
+    width: 5%;
+    height: 5%;
+    top: 3vw;
+    right: -60%;
+    margin-top: 1px;
+    padding-right: 2vw;
+
+}
 /*---About-----*/
 #about {
+    position: relative;
     background-color: #E9ECEF;
     margin-top: 10px;
     height: 86vh;
-    top: 50px;
+    top: 5px;
     box-shadow: 1px 1px 5px 5px #282626;
     border: solid black 2px;
 }
@@ -390,15 +430,10 @@ left: 1%;
 
 
 /*---Education-----*/
-#Education {
+#education {
     background-color: #E9ECEF;
-    margin-top: 10px;
-    height: 86vh;
-    top: 50px;
-    box-shadow: 2px 2px 2px 2px #e00808;
-    border: solid black 2px;
-}
 
+}
 
 /*---hobby-----*/
 #hobby {
