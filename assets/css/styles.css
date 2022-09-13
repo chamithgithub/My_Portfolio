@@ -414,13 +414,10 @@ margin-left: 5%;
 }
 .project-img {
     position: relative;
-    border-radius: 5%;
-    width: 8%;
-    height: 3%;
-    top: 10px;
-    left:10%;
+    width: 20%;
+    height: 40%;
+    right: -5%;
 
-    margin: auto;
     opacity: 90%;
 }
 
