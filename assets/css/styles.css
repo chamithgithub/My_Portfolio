@@ -376,11 +376,12 @@ margin-left: 5%;
 
 
 /*---Projects-----*/
-#Projects {
+#projects {
+    position: relative;
     background-color: #E9ECEF;
-    margin-top: 10px;
-    height: 86vh;
-    top: 50px;
+    margin-top: 15px;
+    height: 75vw;
+    top: 5px;
     box-shadow: 2px 2px 2px 2px #282626;
     border: solid black 2px;
 
@@ -403,8 +404,8 @@ margin-left: 5%;
 .project-img {
     position: relative;
     border-radius: 5%;
-    width: 80%;
-    height: 30%;
+    width: 8%;
+    height: 3%;
     top: 10px;
     left:10%;
 
