@@ -389,11 +389,22 @@ margin-left: 5%;
 #projects > section {
     position: relative;
     width: calc(90% / 3);
-    height:20%;
+    height:40%;
     box-shadow: 10px 13px 8px -5px #1414ac;
     background-color: #D9D9D9;
     border: 3px solid black;
 
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#projects > section:hover{
+    background-image:  linear-gradient(90deg, rgb(46, 29, 165) 0%, rgb(33, 217, 14) 100%);
+    cursor:pointer;
+    box-shadow: 0 0 0 0 #f1bbbb;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: 1s;
 }
 .project-tittle {
     position: relative;
