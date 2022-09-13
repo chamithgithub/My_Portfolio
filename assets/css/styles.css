@@ -401,6 +401,7 @@ margin-left: 5%;
 #projects > section:hover{
     background-image:  linear-gradient(90deg, rgb(46, 29, 165) 0%, rgb(33, 217, 14) 100%);
     cursor:pointer;
+    z-index: 20;
     box-shadow: 0 0 0 0 #f1bbbb;
     transition-delay: 0s;
     transition-property: all;
@@ -427,7 +428,7 @@ left: 11%;
 #projects >section:nth-child(3){
     top: -21%;
     right: -35%;
-    z-index: 20;
+    z-index: 10;
 }
 #projects >section:nth-child(4){
     top: -82%;
