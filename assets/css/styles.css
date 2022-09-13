@@ -416,32 +416,15 @@ margin-left: 5%;
     position: relative;
     width: 80%;
     height: 80%;
-    right: -5%;
+    right: -10%;
 
     opacity: 90%;
 }
 
-#Projects >section:nth-child(2){
-left: 1%;
+#projects >section:nth-child(2){
+left: 11%;
 }
-#Projects >section:nth-child(3){
-    right: 0;
-    left: 0;
-    margin: auto;
-}
-#Projects >section:nth-child(4){
 
-    left:calc((51% / 5)*2);
-    bottom: 0;
-}
-#Projects >section:nth-child(5){
-    left: 60%;
-
-}
-#Projects >section:nth-child(6){
-    right: 1%;
-
-}
 
 
 /*---Education-----*/
