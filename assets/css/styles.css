@@ -429,6 +429,10 @@ left: 11%;
     right: -35%;
     z-index: 20;
 }
+#projects >section:nth-child(4){
+    top: -82%;
+    right: -58%;
+}
 
 
 
