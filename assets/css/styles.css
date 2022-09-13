@@ -298,7 +298,7 @@ margin-left: 5%;
     height: 60vw;
     top: 5px;
     box-shadow: 2px 2px 2px 2px #282626;
-    border: solid black 2px;
+    border: solid black 1;
 }
 .skill-div1 {
     position: relative;
@@ -347,30 +347,29 @@ margin-left: 5%;
 }
 
 #skills > div:nth-child(3) {
-    left: 0;
-    right: 0;
-    margin: auto;
+    top: -11%;
+    right: -35%;
+
 }
 
 #skills > div:nth-child(4) {
-    right: 1%;
+    top: -21%;
+    right: -68%;
 }
 
 #skills > div:nth-child(5) {
-    bottom: 47%;
+    top: -31%;
     left: 1%;
 }
 
 #skills > div:nth-child(6) {
-    right: 0;
-    left: 0;
-    bottom:47%;
-    margin: auto;
+    top: -41%;
+    right: -35%;
 }
 
 #skills > div:nth-child(7) {
-    right: 1%;
-    bottom:47%;
+    top: -51%;
+    right: -68%;
 }
 
 
