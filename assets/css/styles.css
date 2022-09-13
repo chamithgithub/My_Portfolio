@@ -438,7 +438,10 @@ left: 11%;
     left: 11%;
 
 }
-
+#projects >section:nth-child(6){
+    top: -116%;
+    right: -58%;
+}
 
 
 /*---Education-----*/
