@@ -301,12 +301,13 @@ margin-left: 5%;
     border: solid black 2px;
 }
 .skill-div1 {
-    width: calc(95% / 3);
-    height: calc(410px / 2);
-    box-shadow: 10px 13px 8px -5px #282626;
+    position: relative;
+    width: calc(90% / 3);
+    height:20%;
+    box-shadow: 10px 13px 8px -5px #1414ac;
     background-color: #D9D9D9;
-    border: 2px solid black;
-    position: absolute;
+    border: 3px solid black;
+
     transition-delay: 0s;
     transition-property: all;
     transition-duration: 1s;
@@ -314,13 +315,13 @@ margin-left: 5%;
 
 .skill-div2 {
     position: relative;
-
+    bottom: 10%;
 }
 .skills-h1 {
     position: relative;
     text-align: center;
     color: #1a1717;
-    font-size: 35px;
+    font-size: 2vw;
 }
 
 
@@ -329,8 +330,7 @@ margin-left: 5%;
     position: relative;
     width: 20%;
     height: 40%;
-    left: 20px;
-    bottom: 30px;
+    right: -5%;
 }
 
 .skill-div1:hover{
