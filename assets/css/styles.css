@@ -424,6 +424,11 @@ margin-left: 5%;
 #projects >section:nth-child(2){
 left: 11%;
 }
+#projects >section:nth-child(3){
+    top: -21%;
+    right: -35%;
+    z-index: 20;
+}
 
 
 
