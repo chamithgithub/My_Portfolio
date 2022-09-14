@@ -485,6 +485,13 @@ border: 1px solid  green;
     height: 1%;
     width: 9vw;
 }
+#education > aside > div:nth-child(3) {
+    position: relative;
+    background-color: white;
+    height: 45vw;
+    width: 1%;
+
+}
 
 /*---hobby-----*/
 #hobby {
