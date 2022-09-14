@@ -479,6 +479,12 @@ border: 1px solid  green;
     border-radius: 100%;
 
 }
+.blue-line {
+    position: relative;
+    background-color: #001aff;
+    height: 1%;
+    width: 9vw;
+}
 
 /*---hobby-----*/
 #hobby {
