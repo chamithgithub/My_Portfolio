@@ -456,7 +456,13 @@ left: 11%;
     border: solid black 2px;
 
 }
-
+#education > aside {
+    position: relative;
+    width: 90%;
+    height: 80%;
+    right: -5%;
+    border: 1px solid green;
+}
 /*---hobby-----*/
 #hobby {
     background-color: #E9ECEF;
