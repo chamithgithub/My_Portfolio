@@ -609,6 +609,12 @@ border: 3px solid #ff0000;
 
 }
 
+.interest-h1 {
+    position: relative;
+    text-align: center;
+    color: #1a1717;
+    font-size: 2vw;
+}
 
 /*---Contact-----*/
 #Contact {
