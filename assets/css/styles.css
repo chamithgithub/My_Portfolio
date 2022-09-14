@@ -575,6 +575,10 @@ border: 1px solid  green;
 
 }
 
+#education > aside > div:nth-child(15) {
+    top: -93%;
+    right: -8.5%;
+}
 
 /*---hobby-----*/
 #hobby {
