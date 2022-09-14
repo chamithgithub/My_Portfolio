@@ -512,6 +512,12 @@ border: 1px solid  green;
     /*background-color: #0a21ff;*/
 }
 
+#education > aside > div:nth-child(7) {
+    left: 49%;
+    top: -40%;
+    /*background-color: #ff5c00;*/
+}
+
 /*---hobby-----*/
 #hobby {
     background-color: #E9ECEF;
