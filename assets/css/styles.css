@@ -615,7 +615,13 @@ border: 3px solid #ff0000;
     color: #1a1717;
     font-size: 2vw;
 }
-
+.interest-img {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    right: -25%;
+    top: 5%;
+}
 
 /*---Contact-----*/
 #Contact {
