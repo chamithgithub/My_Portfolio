@@ -569,6 +569,13 @@ border: 1px solid  green;
     transition-duration: 1s;
 }
 
+#education > aside > div:nth-child(14) {
+    right: -61%;
+    top: -98%;
+
+}
+
+
 /*---hobby-----*/
 #hobby {
     background-color: #E9ECEF;
