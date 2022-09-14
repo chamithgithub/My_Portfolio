@@ -647,7 +647,10 @@ border: 3px solid #ff0000;
     right: -35%;
 }
 
-
+#interest > div:nth-child(7) {
+    top: -51%;
+    right: -68%;
+}
 /*---Contact-----*/
 #Contact {
     background-color: #E9ECEF;
