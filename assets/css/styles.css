@@ -674,6 +674,11 @@ border: 3px solid #ff0000;
     right: -2%;
     /*border: 3px solid #ff0000;*/
 }
+#contact > section:nth-child(2)> article {
+    position: relative;
+    font-size: 1.3vw;
+    /*border: 2px solid yellow;*/
+}
 
 /*---footer-----*/
 #footer {
