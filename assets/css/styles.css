@@ -679,6 +679,27 @@ border: 3px solid #ff0000;
     font-size: 1.3vw;
     /*border: 2px solid yellow;*/
 }
+#contact > section:nth-child(2)>.div-1{
+    position: relative;
+    /*border: 2px solid #d901ff;*/
+    height: 30%;
+}
+#contact .div-2{
+    position: relative;
+    /*border: 2px solid green;*/
+    width: calc(50% / 3);
+    height :12vw;
+    text-align: center;
+    color: #1a1717;
+    font-size: 2vw;
+}
+.img-contract{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    right: -2%;
+    opacity: 90%;
+}
 
 /*---footer-----*/
 #footer {
