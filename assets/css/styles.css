@@ -667,6 +667,13 @@ border: 3px solid #ff0000;
     border: solid black 2px;
 
 }
+#contact > section:nth-child(2) {
+    position: relative;
+    width: 90%;
+    height:80%;
+    right: -2%;
+    /*border: 3px solid #ff0000;*/
+}
 
 /*---footer-----*/
 #footer {
