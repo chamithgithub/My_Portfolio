@@ -651,6 +651,11 @@ border: 3px solid #ff0000;
     top: -51%;
     right: -68%;
 }
+
+
+
+
+
 /*---Contact-----*/
 #contact {
     position: relative;
@@ -662,20 +667,12 @@ border: 3px solid #ff0000;
     border: solid black 2px;
 
 }
-#contact > section:nth-child(2) {
-    position: relative;
-    width: 90%;
-    height:80%;
-    right: -5%;
-    border: 3px solid #ff0000;
-}
-
-
 
 /*---footer-----*/
 #footer {
     position: relative;
     top: 20px;
     background-color: #E9ECEF;
+
 
 }
