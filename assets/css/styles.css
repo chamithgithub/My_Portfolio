@@ -761,3 +761,7 @@ border: 3px solid #ff0000;
 @media all and (min-width: 320px) and (max-width: 420px) {
 
 }
+
+@media all and (min-width: 421px) and (max-width: 720px) {
+
+}
