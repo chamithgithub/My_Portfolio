@@ -712,6 +712,19 @@ border: 3px solid #ff0000;
     top: -110%;
     right: -70%;
 }
+#contact > section:nth-child(2) > div>form {
+    position: relative;
+    width: 98%;
+    height:35vw;
+    /*border: 3px solid #1100ff;*/
+    font-size: 1.8vw;
+}
+.contact-form {
+    position: relative;
+    color: #ffffff;
+    background-color: #1260B1;
+    /*border: 3px solid #ff00fb;*/
+}
 
 /*---footer-----*/
 #footer {
