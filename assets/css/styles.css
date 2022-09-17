@@ -700,6 +700,18 @@ border: 3px solid #ff0000;
     right: -2%;
     opacity: 90%;
 }
+#contact > section> div:nth-child(2)>div:nth-child(1){
+    right: -10%;
+    top: 10%;
+}
+#contact > section> div:nth-child(2)>div:nth-child(2){
+    top: -50%;
+    right: -40%;
+}
+#contact > section> div:nth-child(2)>div:nth-child(3){
+    top: -110%;
+    right: -70%;
+}
 
 /*---footer-----*/
 #footer {
