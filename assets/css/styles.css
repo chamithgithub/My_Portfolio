@@ -55,10 +55,10 @@ body > main >section{
 /*---------------home--------------*/
 
 #home {
-    background-color: #E9ECEF;
     height: 50vw;
     top:100vw;
     border: solid black 2px;
+    background: url("../img/backgrond.jpg");
 
 }
 
@@ -157,7 +157,7 @@ margin-left: 5%;
 /*---About-----*/
 #about {
     position: relative;
-    background-color: #E9ECEF;
+    background: url("../img/backgrond.jpg");
     height: 80vw;
     top: 5px;
     box-shadow: 1px 1px 5px 5px #282626;
@@ -222,7 +222,7 @@ margin-left: 5%;
 /*---services-----*/
 #services {
     position: relative;
-    background-color: #E9ECEF;
+    background: url("../img/backgrond.jpg");
     height: 60vw;
     box-shadow: 2px 2px 2px 2px #282626;
     border: solid black 2px;
@@ -297,7 +297,7 @@ margin-left: 5%;
 /*---Skills-----*//*---Skills-----*//*---Skills-----*/
 #skills {
     position: relative;
-    background-color: #E9ECEF;
+    background: url("../img/backgrond.jpg");
     height: 75vw;
     box-shadow: 2px 2px 2px 2px #282626;
     border: solid black 2px;
@@ -380,7 +380,7 @@ margin-left: 5%;
 /*---Projects-----*/
 #projects {
     position: relative;
-    background-color: #E9ECEF;
+    background: url("../img/backgrond.jpg");
     height: 75vw;
     box-shadow: 2px 2px 2px 2px #282626;
     border: solid black 2px;
@@ -448,7 +448,7 @@ left: 11%;
 /*---Education-----*/
 #education {
     position: relative;
-    background-color: #E9ECEF;
+    background: url("../img/backgrond.jpg");
     height: 75vw;
     box-shadow: 2px 2px 2px 2px #282626;
     border: solid black 2px;
@@ -589,7 +589,7 @@ border: 3px solid #ff0000;
 /*---hobby-----*/
 #interest {
     position: relative;
-    background-color: #E9ECEF;
+    background: url("../img/backgrond.jpg");
     height: 75vw;
     box-shadow: 2px 2px 2px 2px #282626;
     border: solid black 2px;
@@ -655,7 +655,7 @@ border: 3px solid #ff0000;
 /*---Contact-----*/
 #contact {
     position: relative;
-    background-color: #E9ECEF;
+    background: url("../img/backgrond.jpg");
     height: 70vw;
     box-shadow: 2px 2px 2px 2px #282626;
     border: solid black 2px;
@@ -760,7 +760,7 @@ border: 3px solid #ff0000;
 #footer {
     position: relative;
     top: 20px;
-    background-color: #E9ECEF;
+    background: url("../img/backgrond.jpg");
 
 
 }
