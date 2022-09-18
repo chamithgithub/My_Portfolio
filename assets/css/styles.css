@@ -1,6 +1,14 @@
 body{
     background-color: #488ECB;
 }
+.T1{
+    text-align: center;
+    color: red;
+    font-size: 3vw;
+}
+.T1>span{
+    color: #000cff;
+}
 #header {
     position: fixed;
     top: 0;
