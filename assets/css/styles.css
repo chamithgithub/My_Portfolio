@@ -686,21 +686,23 @@ border: 3px solid #ff0000;
 }
 #contact > section:nth-child(2)> article {
     position: relative;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
+    color: red;
     /*border: 2px solid yellow;*/
 }
 #contact > section:nth-child(2)>.div-1{
     position: relative;
     /*border: 2px solid #d901ff;*/
-    height: 30%;
+    height: 98%;
+    width: 30%;
 }
 #contact .div-2{
     position: relative;
     /*border: 2px solid green;*/
-    width: calc(50% / 3);
+    width: calc(150% / 3);
     height :12vw;
     text-align: center;
-    color: #1a1717;
+    color: #000cff;
     font-size: 2vw;
 }
 .img-contract{
@@ -711,76 +713,116 @@ border: 3px solid #ff0000;
     opacity: 90%;
 }
 #contact > section> div:nth-child(2)>div:nth-child(1){
-    right: -10%;
-    top: 10%;
+    right: -1%;
+    top: 1%;
 }
 #contact > section> div:nth-child(2)>div:nth-child(2){
-    top: -50%;
-    right: -40%;
+    top: 8%;
+    right: -1%;
 }
 #contact > section> div:nth-child(2)>div:nth-child(3){
-    top: -110%;
-    right: -70%;
+    top: 28%;
+    right: -1%;
 }
 #contact > section:nth-child(2) > div>form {
     position: relative;
     width: 98%;
-    height:35vw;
+    height: 35vw;
     /*border: 3px solid #1100ff;*/
     font-size: 1.8vw;
+    top: auto;
+    margin-top: 6%;
+}
+#contact > section:nth-child(2)>.div-3 {
+    position: relative;
+    /*border: 3px solid #03ff00;*/
+    top: -60vw;
+    right: -30%;
+    height: 98%;
+    width: 70%;
+
 }
 .contact-form {
     position: relative;
     color: #ffffff;
     background-color: #1260B1;
+    border-radius: 1vw;
     /*border: 3px solid #ff00fb;*/
 }
 #contact > section:nth-child(2) > div>form > input:nth-child(1) {
     position: relative;
-    right: 1vw;
-    top: 10%;
-    width: 34.9vw;
+    right: -2vw;
+    top: 63%;
+    width: 75%;
     height: 2vw;
 }
 #contact > section:nth-child(2) > div>form > input:nth-child(3) {
     position: relative;
-    right: -37vw;
-    width: 32.3vw;
+    right: -2vw;
+    width: 75%;
     height: 2vw;
-    top: 2%;
+    top: 68.5%;
 }
 
 #contact > section:nth-child(2) > div>form> input:nth-child(5) {
     position: relative;
     height: 2vw;
-    right: 1vw;
-    width: 80%;
-    top: 6.2%;
+    right: -2vw;
+    width: 75%;
+    top: 73.2%;
 }
 #contact > section:nth-child(2) > div>form> textarea {
     position: relative;
-    width: 80%;
-    right: 1vw;
+    width: 75%;
+    right: -2vw;
     height: 15vw;
-    top: 10%;
+    top: 78%;
 }
 #contact > section:nth-child(2) > div>form > button {
     position: relative;
-    right: -84%;
-    top: -1vw;
-    width: 14%;
-    height: 10%;
+    right: -81%;
+    top: 68%;
+    width: 20%;
+    height: 3vw;
     font-size: 1.5vw;
+    color: #000cff;
 }
 /*---footer-----*/
 #footer {
     position: relative;
-    background: url("../img/backgrond.jpg");
+    background: url(../img/backgrond.jpg);
     box-shadow: 2px 2px 2px 2px #282626;
     border: solid black 2px;
-margin-top: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 8vw;
 }
+#footer>section>div:first-child{
+    position: relative;
+    color: red;
+    width: 65%;
+    height: 3vw;
+    /*border: 1px solid red;*/
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    font-size: 1.5vw;
+}
+#footer>section>div:last-child{
+    position: relative;
+    color: blue;
+    width: 25%;
+    height: 3vw;
+    /* border: 1px solid red; */
+    /* margin-bottom: 0.5%; */
+    margin-left: 75%;
+    font-size: 1.5vw;
 
+}
+#footer>section>div:last-child>h4>span{
+    color: red;
+
+
+}
 /*--------------Media Query-------------*/
 @media all and (min-width: 320px) and (max-width: 420px) {
 
