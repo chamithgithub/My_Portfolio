@@ -895,6 +895,163 @@ top:60% ;
         padding-left: 4%;
     }
 
+    #home > aside:nth-child(2) > h1 {
+        position: relative;
+        font-size: 2vw;
+        top: 7.5vw;
+        /* left: 15%; */
+        margin-left: 15%;
+        margin-top: -10px;
+    }
+
+    #home > aside > div > p {
+        background-color: #4DBABA;
+        border-radius: 4px;
+        width: 47vw;
+        height: 3vw;
+        position: relative;
+        font-size: 2vw;
+        padding-top: 1%;
+        color: white;
+        top: 5vw;
+        /* left: 8%; */
+        margin-left: 8%;
+        margin-top: 7%;
+        padding-left: 1%;
+    }
+
+    /*about*/
+    #about > article > h2 {
+        position: relative;
+        top: -5vw;
+        font-size: 3vw;
+        color: #e30b0b;
+    }
+    #about > article > p {
+        color: #111111;
+        font-size: 2vw;
+        line-height: 1.5;
+        padding-left: 10%;
+    }
+    #about > aside {
+        position: relative;
+        margin-left: 60%;
+        height: 25%;
+        width: 35%;
+        border: 0.6vw
+        solid red;
+    }
+    #about > aside > dl {
+        position: relative;
+        top: -0.1%;
+        right: 12%;
+        /* margin: auto; */
+    }
+    #about > aside > button {
+        position: relative;
+        top: 5%;
+        right: -60%;
+        width: 40%;
+        height: 15%;
+        font-size: 1.3vw;
+    }
+
+/*projects*/
+
+    #projects > section {
+        position: relative;
+        width: calc(90% / 3);
+        height: 40%;
+        box-shadow: 10px 13px 8px -5px #1414ac;
+        background-color: #D9D9D9;
+        border: 0.5vw solid black;
+        transition-delay: 0s;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+
+    #projects >section:nth-child(6) {
+        top: -116.5%;
+        right: -58%;
+    }
+
+
+    .education-div {
+        position: relative;
+        font-size: 1vw;
+        text-align: center;
+        color: #ff0202;
+        width: 30%;
+        height: 8vw;
+        border: 0.75vw solid #000cff;
+    }
+
+    .blue-line {
+        position: relative;
+        background-color: #001aff;
+        height: 1.2%;
+        width: 9vw;
+    }
+
+    #education > aside > div:nth-child(14) {
+        right: -61%;
+        top: -100%;
+    }
+    #education > aside > div:nth-child(15) {
+        top: -95%;
+        right: -7.9%;
+    }
+    #education > aside > div:nth-child(16) {
+        top: -94.5%;
+        right: -61%;
+    }
+    #education > aside > div:nth-child(17) {
+        top: -92.5%;
+        left: 7.5%;
+    }
+
+
+    /*interest*/
+
+
+    .interest-div1 {
+        position: relative;
+        width: calc(90% / 3);
+        height: 20%;
+        box-shadow: 10px 13px 8px -5px #1414ac;
+        background-color: #D9D9D9;
+        border: 0.5vw solid black;
+    }
+    .interest-h1 {
+        position: relative;
+        text-align: center;
+        color: #1a1717;
+        font-size: 2vw;
+        margin-top: 0;
+    }
+
+
+    /*contact*/
+
+    #contact > section:nth-child(2)>.div-3 {
+        position: relative;
+        /* border: 3px solid #03ff00; */
+        top: -62vw;
+        right: -30%;
+        height: 98%;
+        width: 70%;
+    }
+
+    #contact > section:nth-child(2) > div>form > button {
+        position: relative;
+        right: -85%;
+        top: 68%;
+        width: 25%;
+        height: 4vw;
+        font-size: 1.75vw;
+        color: #000cff;
+    }
+
 
 
 }
