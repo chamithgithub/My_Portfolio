@@ -175,7 +175,6 @@ margin-left: 5%;
     position: relative;
     background: url("../img/backgrond.jpg");
     height: 80vw;
-    top: 5px;
     box-shadow: 1px 1px 5px 5px #282626;
     border: solid black 2px;
 }
@@ -232,6 +231,14 @@ margin-left: 5%;
     position: relative;
     right: 20px;
     color: #ff0000;
+}
+#about > aside > button {
+    position: relative;
+    bottom: -46%;
+    right: -70%;
+    width: 30%;
+    height: 15%;
+    font-size: 1.3vw;
 }
 
 
@@ -324,7 +331,7 @@ margin-left: 5%;
     height:20%;
     box-shadow: 10px 13px 8px -5px #1414ac;
     background-color: #D9D9D9;
-    border: 3px solid black;
+    border: 0.3vw solid black;
 
     transition-delay: 0s;
     transition-property: all;
@@ -814,17 +821,18 @@ border: 3px solid #ff0000;
     height: 3vw;
     margin-left: 75%;
     font-size: 1.5vw;
-    top: -6vw;
+    top: -4vw;
 }
 #footer>section>div:last-child>h4>span{
     color: red;
 
 
 }
-#footer>section>div>img{
+#footer>section>div>a>img{
     width: 15%;
     height: 130%;
     right: -12%;
+    top: -10%;
 }
 #footer>section>div>img:nth-child(1){
     position: relative;
@@ -838,8 +846,56 @@ top:60% ;
     position: relative;
     top:60% ;
 }
+#footer>section>div:nth-child(2)>h4 {
+    margin-top: 1%;
+}
 /*--------------Media Query-------------*/
+
+
 @media all and (min-width: 320px) and (max-width: 420px) {
+    #header > section > div > h3 {
+        position: relative;
+        font-size: 1.8vw;
+        top: -1vw;
+        right: -1vw;
+    }
+
+    #home > aside:nth-child(2) > h3 {
+        position: relative;
+        font-size: 4vw;
+        top: 9vw;
+        /* right: -22%; */
+        color: #206D99;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 22%;
+        animation-name: h3;
+        animation-duration: 8s;
+        animation-direction: alternate;
+    }
+
+    #home > aside:nth-child(2) > p {
+        position: relative;
+        color: #2b2323;
+        top: 10vw;
+        margin-left: 5%;
+        font-size: 5vw;
+        margin-top: -10px;
+        animation-name: p;
+        animation-duration: 8s;
+        animation-direction: alternate;
+    }
+
+    header > section > nav > ul {
+        position: relative;
+        margin-top: -5.1%;
+        top: -2vw;
+        right: -31%;
+        list-style: none;
+        padding-left: 4%;
+    }
+
+
 
 }
 
