@@ -68,10 +68,47 @@
     <br>
 
     <section class="row">
+            <!-- Button Save modal -->
+            <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#exampleModal">Save Item</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-success">
+                            <h5 class="modal-title" id="exampleModalLabel1">Add New Item</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput1" class="form-label">Item Code:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Ex: I001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Item Name:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ex: Rice">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput3" class="form-label">Quntity:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Ex: 1000Kg">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput4" class="form-label">Unit Price:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Ex: Rs. 210">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success">Save</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
     </section>
 
-
+    <br><br><br>
 
     <section class="container-fluid">
 
