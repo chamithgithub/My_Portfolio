@@ -17,7 +17,7 @@
 
     <nav class="navbar navbar-expand-lg bg-light fixed-top" >
         <div class="container-fluid shadow p-2 mb-2 bg-body rounded">
-            <img src="../assets/img/123.jpg" width="70" height="70">
+            <img src="../assets/img/123.jpg" width="75" height="75">
             <p class="navbar-brand" >POS System</p>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -41,7 +41,7 @@
                         <a class="nav-link" href="../page/order.html">Place Order</a>
                     </li>
                     <li class="nav-click">
-                        <a class="nav-link" href="../page/orderDetails.html">All Order details</a>
+                        <a class="nav-link" href="../page/orderDetails.html">Order details</a>
                     </li>
                 </ul>
 
@@ -50,201 +50,7 @@
     </nav>
 </header>
 <body>
-<main class="container-fluid" style="
-    margin-top: 100px;
-">
-    <br>
-    <h1>MANAGE CUSTOMER</h1>
-    <br>
 
-    <section class="row" style="
-    margin-top: 10px;">
-
-        <div class=" d-flex flex-md-column flex-sm-row">
-            <form class="d-flex flex-column flex-sm-row" role="search">
-                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
-    </section>
-
-    <br>
-
-    <section class="row">
-        <div class="container-fluid justify-content-center gap-3 d-flex flex-xxl-row">
-
-            <!-- Button save modal -->
-            <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#exampleModal">Save Customer</button>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header bg-success">
-                            <h5 class="modal-title" id="exampleModalLabel1">New Customer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput1" class="form-label">Customer ID:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Ex: C001">
-                            </div>
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label">Customer Name:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ex: Kamal Gunarathna">
-                            </div>
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput3" class="form-label">Address:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Ex: Kalutara">
-                            </div>
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput4" class="form-label">Salary:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Ex: Rs.90 000">
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-info">Save</button>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Button Update modal -->
-            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2">Update Customer</button>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header bg-warning">
-                            <h5 class="modal-title" id="exampleModalLabel2">Update Customer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput5" class="form-label">Customer ID:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput5" placeholder="Ex: C001">
-                            </div>
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput6" class="form-label">Customer Name:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput6" placeholder="Ex: Kamal Gunarathna">
-                            </div>
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput7" class="form-label">Address:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput7" placeholder="Ex: Kalutara">
-                            </div>
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput8" class="form-label">Salary:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput8" placeholder="Ex: Rs.90 000">
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-info">Update</button>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Button Delete modal -->
-            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal3">Delete Customer</button>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header bg-danger">
-                            <h5 class="modal-title" id="exampleModalLabel3">Delete Customer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput9" class="form-label">Customer ID:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput9" placeholder="Ex: C001">
-                            </div>
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput10" class="form-label">Customer Name:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput10" placeholder="Ex: Kamal Gunarathna">
-                            </div>
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput11" class="form-label">Address:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput11" placeholder="Ex: Kalutara">
-                            </div>
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput12" class="form-label">Salary:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput12" placeholder="Ex: Rs.90 000">
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-info">Delete</button>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <br>
-
-    <section class="container-fluid">
-        <table  class="table table-danger ">
-            <thead class="table-dark" >
-            <tr>
-                <th scope="col">Customer ID</th>
-                <th scope="col">Name</th>
-                <th scope="col">Address</th>
-                <th scope="col">Salary</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th>C001</th>
-                <td>kamal</td>
-                <td>matara</td>
-                <td>30 000</td>
-            </tr>
-            <tr>
-                <th>C002</th>
-                <td>nimal</td>
-                <td>galle</td>
-                <td>90 000</td>
-            </tr>
-            <tr>
-                <th>C003</th>
-                <td>amal</td>
-                <td>Matara</td>
-                <td>70 000</td>
-            </tr>
-            <tr>
-                <th>C004</th>
-                <td>sunil</td>
-                <td>panadura</td>
-                <td>60 000</td>
-            </tr>
-            <tr>
-                <th>C005</th>
-                <td>karuna</td>
-                <td>Kalutara</td>
-                <td>100 000</td>
-            </tr>
-            <tr>
-                <th>C006</th>
-                <td>kusum</td>
-                <td>wadduwa</td>
-                <td>90 000</td>
-            </tr>
-            <tr>
-                <th>C007</th>
-                <td>kalana</td>
-                <td>Kalutara</td>
-                <td>60 000</td>
-            </tr>
-            </tbody>
-        </table>
-    </section>
-</main>
 <script src="../assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
