@@ -68,6 +68,7 @@
     <br>
 
     <section class="row">
+
             <!-- Button Save modal -->
             <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#exampleModal">Save Item</button>
 
@@ -100,6 +101,43 @@
                             <button type="button" class="btn btn-success">Save</button>
                             <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Button Update modal -->
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2">Update Item</button>
+
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-warning">
+                            <h5 class="modal-title" id="exampleModalLabel2">Update Item</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput5" class="form-label">Item Code:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput5" placeholder="Ex: I001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput6" class="form-label">Item Name:</label>
+                                <input type="text" class="form-control"  disabled id="formGroupExampleInput6" placeholder="Ex: Rice">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput7" class="form-label">Quntity:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput7" placeholder="Ex: 1000Kg">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput8" class="form-label">Unit Price:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput8" placeholder="Ex: Rs. 210">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning">Update</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
