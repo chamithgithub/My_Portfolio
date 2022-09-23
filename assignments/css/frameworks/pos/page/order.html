@@ -70,7 +70,7 @@
 
             <!-- Button Update modal -->
             <button type="button" class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#exampleModal">Update Order</button>
-            <!-- Modal -->
+
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -105,8 +105,46 @@
                 </div>
             </div>
 
+
+            <!-- Button Delete modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal2">Delete Order</button>
+
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-danger">
+                            <h5 class="modal-title" id="exampleModalLabel2">Update Customer</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput5" class="form-label">Order ID:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput5" placeholder="Ex: O001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput6" class="form-label">Order Date:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput6" placeholder="Ex: 2021-10-12">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput7" class="form-label">Customer ID:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput7" placeholder="Ex: C001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput8" class="form-label">Total Price:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput8" placeholder="Ex: Rs. 5000">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <br><br><br>
 
     <section class="container-fluid">
 
