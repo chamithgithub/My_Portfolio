@@ -66,7 +66,44 @@
     <br>
     <br>
 
-    <section>
+    <section class="row">
+
+            <!-- Button Update modal -->
+            <button type="button" class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#exampleModal">Update Order</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-warning">
+                            <h5 class="modal-title" id="exampleModalLabel1">Update Order</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput1" class="form-label">Order ID:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput1" placeholder="Ex: O001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Order date:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput2" placeholder="Ex: 2021-10-12">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput3" class="form-label">Customer ID:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput3" placeholder="Ex: C001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput4" class="form-label">Total Price:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput4" placeholder="Ex: Rs. 5000">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning">Update</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     </section>
 
