@@ -71,7 +71,7 @@
     <br>
 
     <section class="row">
-
+        <div class="container-fluid justify-content-center gap-3 d-flex flex-xxl-row">
 
             <!-- Button save modal -->
             <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#exampleModal">Save Customer</button>
@@ -111,7 +111,7 @@
             </div>
 
 
-            <!-- Button update modal -->
+            <!-- Button Update modal -->
             <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2">Update Customer</button>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
@@ -148,7 +148,7 @@
             </div>
 
 
-            <!-- Button delete modal -->
+            <!-- Button Delete modal -->
             <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal3">Delete Customer</button>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
@@ -189,7 +189,17 @@
     <br>
 
     <section class="container-fluid">
+        <table  class="table table-danger ">
+            <thead class="table-dark" >
+            <tr>
+                <th scope="col">Customer ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Salary</th>
+            </tr>
 
+
+        </table>
     </section>
 </main>
 <script src="../assets/js/bootstrap.bundle.min.js"></script>
