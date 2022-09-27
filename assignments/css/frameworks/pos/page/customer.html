@@ -205,7 +205,17 @@
                 </div>
             </div>
 
+            <!-- Button get all  modal -->
+
+            <button id="btnGetAll" type="button" class="btn btn-info " data-bs-toggle="modal" data-bs-target="#exampleModal">Get All
+                Customer
+            </button>
+
         </div>
+
+
+
+
     </section>
     <br>
 
@@ -281,6 +291,41 @@
     //     alert($("#formGroupExampleInput1").val());
     //     alert($("#formGroupExampleInput2").val());
     // });
+    // all customers array
+    var customerArr = []; //global scope
+
+    // add new customer btn on action
+    $('#btnSaveCus').click(function () {
+
+        let customerID = $('#formGroupExampleInput1').val();
+        let customerName = $('#formGroupExampleInput2').val();
+        let customerAddress = $('#formGroupExampleInput3').val();
+        let customerSalary = $('#formGroupExampleInput4').val();
+
+        var customerOne = {
+            "id": customerID,
+            "name": customerName,
+            "address": customerAddress,
+            "salary": customerSalary
+        };
+
+        //add to the array
+        customerArr.push(customerOne);
+    });
+
+    // //load all customers to the table
+    // $('#btnGetAll').click(function () {
+    //     //clear table
+    //     $('#tbl_Customer_Body').empty();
+    //
+    //     for (var customer of customerArr) {
+    //         var row = "<tr><td>" + customer.id + "</td><td>" + customer.name + "</td><td>" + customer.address + "</td><td>" + customer.salary + "</td></tr>";
+    //
+    //         // add to the table
+    //         $('#tbl_Customer_Body').append(row);
+    //     }
+    // });
+
 </script>
 </body>
 </html>
