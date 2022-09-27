@@ -137,7 +137,23 @@
         $('#txt_Equation').val("");
     });
 
+    // calculation expression
 
+    function answer() {
+        var exp = $('#txt_Equation').val();
+
+        if (exp) {
+            $('#txt_Equation').val(eval(exp));
+        } else {
+            alert("expression empty!");
+        }
+    }
+
+    // btn equals (=)  ---> answer
+
+    $('#btn_Equals').click(function () {
+        answer();
+    });
 
 
 </script>
