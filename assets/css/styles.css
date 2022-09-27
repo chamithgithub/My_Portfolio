@@ -1057,6 +1057,48 @@ top:60% ;
 }
 
 @media all and (min-width: 421px) and (max-width: 720px) {
+    #header > section > div > h3 {
+        position: relative;
+        font-size: 1.8vw;
+        top: -0.5vw;
+        right: -1vw;
+    }
+
+    header > section > nav > ul {
+        position: relative;
+        margin-top: -5.1%;
+        top: -1.2vw;
+        right: -31%;
+        list-style: none;
+        padding-left: 5%;
+    }
+
+    #home > aside:nth-child(2) > h1 {
+        position: relative;
+        font-size: 2vw;
+        top: 4vw;
+        /* left: 15%; */
+        margin-left: 15%;
+        margin-top: -10px;
+    }
+
+    #home>aside>div>p {
+        background-color: #4DBABA;
+        border-radius: 4px;
+        width: 47vw;
+        height: 2vw;
+        position: relative;
+        font-size: 2vw;
+        padding-top: 1vw;
+        color: white;
+        top: 8vw;
+        /* left: 8%; */
+        margin-left: 8%;
+        margin-top: 3.5vw;
+        padding-left: 1%;
+    }
+
+
 
 }
 @media all and (min-width: 721px) and (max-width: 1024px) {
