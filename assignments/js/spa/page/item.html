@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ItemPage</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!--    <link rel="stylesheet" href="../assets/css/bootstrap-grid.min.css">-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="icon" href="../assets/img/favicon.png">
+    <!--    <style>-->
+
+    <!--    </style>-->
+</head>
+
+<header>
+
+
+    <nav class="navbar navbar-expand-lg bg-light fixed-top" >
+        <div class="container-fluid shadow p-2 mb-2 bg-body rounded">
+            <img src="../assets/img/123.jpg" width="75" height="75">
+            <p class="navbar-brand" >POS System</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-click">
+                        <a class="nav-link active" aria-current="page" href="../page/customer.html">Home</a>
+                    </li>
+                    <li class="nav-click">
+                        <a class="nav-link" href="../page/customer.html">Customers</a>
+                    </li>
+                    <li class="nav-click">
+                        <a class="nav-link" href="../page/item.html">Items</a>
+                    </li>
+                    <li class="nav-click">
+                        <a class="nav-link" href="../page/order.html">Order details</a>
+                    </li>
+                    <li class="nav-click">
+                        <a class="nav-link" href="placeOrder.html">Place Order</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+<main class="container-fluid" style="margin-top: 100px">
+    <br>
+    <h1>MANAGE ITEMS</h1>
+    <br>
+
+    <section class="row">
+        <div class=" d-flex flex-md-column flex-sm-row">
+            <form class="d-flex flex-column flex-sm-row" role="search">
+                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <br>
+
+    <section class="row">
+        <div class="container-fluid justify-content-center gap-3 d-flex flex-xxl-row">
+            <!-- Button Save modal -->
+            <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#exampleModal">Save Item</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-success">
+                            <h5 class="modal-title" id="exampleModalLabel1">Add New Item</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput1" class="form-label">Item Code:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Ex: I001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Item Name:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ex: Rice">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput3" class="form-label">Quntity:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Ex: 1000Kg">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput4" class="form-label">Unit Price:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Ex: Rs. 210">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success">Save</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Button Update modal -->
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2">Update Item</button>
+
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-warning">
+                            <h5 class="modal-title" id="exampleModalLabel2">Update Item</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput5" class="form-label">Item Code:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput5" placeholder="Ex: I001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput6" class="form-label">Item Name:</label>
+                                <input type="text" class="form-control"  disabled id="formGroupExampleInput6" placeholder="Ex: Rice">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput7" class="form-label">Quntity:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput7" placeholder="Ex: 1000Kg">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput8" class="form-label">Unit Price:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput8" placeholder="Ex: Rs. 210">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning">Update</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Button Delete modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal3">Delete Item</button>
+
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-danger">
+                            <h5 class="modal-title" id="exampleModalLabel3">Delete Item</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput9" class="form-label">Item Code:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput9" placeholder="Ex: I001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput10" class="form-label">Item Name:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput10" placeholder="Ex: Rice">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput11" class="form-label">Quntity:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput11" placeholder="Ex: 1000Kg">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput12" class="form-label">Unit Price:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput12" placeholder="Ex: Rs. 210">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+
+    <section class="container-fluid">
+        <table  class="table table-danger">
+            <thead class="table-warning">
+            <tr>
+                <th scope="col">Item Id</th>
+                <th scope="col">Item Name</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Unit Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>I001</th>
+                <td>Red Rice</td>
+                <td>1000kg</td>
+                <td>RS. 250</td>
+            </tr>
+            <tr>
+                <th>I002</th>
+                <td>Rice</td>
+                <td>1000kg</td>
+                <td>RS. 210</td>
+            </tr>
+            <tr>
+                <th>I003</th>
+                <td>Noodles</td>
+                <td>50 pack</td>
+                <td>RS. 170</td>
+            </tr>
+            <tr>
+                <th>I004</th>
+                <td>Chili Powder</td>
+                <td>500 pack</td>
+                <td>RS. 300</td>
+            </tr>
+            <tr>
+                <th>I005</th>
+                <td>Soap</td>
+                <td>1000 pack</td>
+                <td>RS. 70</td>
+            </tr>
+            <tr>
+                <th>I006</th>
+                <td>Sugar</td>
+                <td>1000kg</td>
+                <td>RS. 310</td>
+            </tr>
+            <tr>
+                <th>I007</th>
+                <td>Tea</td>
+                <td>100 pack</td>
+                <td>RS. 170</td>
+            </tr>
+
+
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
