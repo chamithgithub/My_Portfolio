@@ -2,6 +2,7 @@
 // // =========
 $('#header_container').css('visibility', 'hidden');
 $('#customer_main_container').css('visibility', 'hidden');
+$('#item_main_container').css('visibility', 'hidden');
 
 
 // customer btn on action
