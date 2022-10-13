@@ -57,3 +57,12 @@ $('#btn_To_Customer').click(function () {
     $('#orders_main_container').css('visibility', 'hidden');
 });
 
+//header items nav bar
+$('#btn_To_Item').click(function () {
+    $('#customer_main_container').css('visibility', 'hidden');
+    $('#orders_main_container').css('visibility', 'hidden');
+    $('#place_order_main_container').css('visibility', 'hidden');
+    $('#dashboard_main_container').css('visibility', 'hidden');
+    $('#header_container').css('visibility', 'visible');
+    $('#item_main_container').css('visibility', 'visible');
+});
