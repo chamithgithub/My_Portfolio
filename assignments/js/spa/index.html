@@ -490,6 +490,35 @@
     </div>
 </main>
 
+<!-- orders -->
+<main id="manage_orders_main_container" class="container-fluid bg-light row me-0 pe-0 ms-0 ps-0 justify-content-around">
+    <!--heading-->
+    <h1 class="fw-semibold  col-12 pt-4 pb-2 ps-4"> Order Details Form</h1>
+
+    <!--search order-->
+    <div class="container card ps-0 pe-0 col-md-5 ms-3 row col-sm-12">
+        <h5 class="card-header bg-danger">Search Order</h5>
+        <div class="card-body border-0 p-0">
+            <form style="margin-top: 17px;" class="d-flex col-8 ms-3" role="search">
+                <input id="txtInputSearchOrderID" class="form-control me-2" type="search" placeholder="Enter Order ID" aria-label="Search">
+                <button id="btnSearchOrder" class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+        </div>
+    </div>
+
+    <!--crud btn-->
+    <div class="container row col-md-6 gap-3 mt-3 mb-3 justify-content-center col-sm-12">
+        <button id="btnUpdateItemQty" type="button" class="btn btn-outline-warning col-4" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop7">Update Order
+        </button>
+
+    </div>
+
+
+</main>
+
+
 <script src="../spa/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="../spa/assets/js/jquery-3.6.1.min.js"></script>
 
