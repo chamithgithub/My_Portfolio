@@ -4,7 +4,7 @@ $('#header_container').css('visibility', 'hidden');
 $('#customer_main_container').css('visibility', 'hidden');
 $('#item_main_container').css('visibility', 'hidden');
 $('#orders_main_container').css('visibility', 'hidden');
-
+$('#place_order_main_container').css('visibility', 'hidden');
 
 // customer btn on action
 $('#btn_Customer').click(function () {
@@ -26,3 +26,4 @@ $('#btn_Manage_Orders').click(function () {
     $('#header_container').css('visibility', 'visible');
     $('#orders_main_container').css('visibility', 'visible');
 });
+
