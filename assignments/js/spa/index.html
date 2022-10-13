@@ -614,6 +614,193 @@
     </div>
 </main>
 
+<main id="place_order_main_container" class="container-fluid bg-light row me-0 pe-0 ms-0 ps-0">
+    <br>
+    <br>
+    <h1 class="bg-danger">Place Order</h1>
+    <br>
+    <br>
+
+
+    <!-- invoice  -->
+    <div class="container card ps-0 pe-0 col-md-3 ms-1 row col-sm-12">
+        <h5 class="card-header bg-warning ">Invoice</h5>
+        <div class="card-body border-0 p-0">
+            <div class="row g-2 mt-1 ms-2">
+                <div class="col-6">
+                    <label class="form-label">Date : </label>
+                    <input type="date" class="form-control" placeholder="Ex: 05/12/2022" aria-label="">
+                </div>
+                <div class="col-5">
+                    <label class="form-label">Order ID : </label>
+                    <select class="form-select" aria-label="">
+                        <option selected>None</option>
+                        <option value="1">Or001</option>
+                        <option value="2">Or002</option>
+                        <option value="3">Or003</option>
+                        <option value="4">Or004</option>
+                        <option value="5">Or005</option>
+                    </select>
+                </div>
+                <div class="col-5">
+                    <label class="form-label">Customer ID : </label>
+                    <select class="form-select" aria-label="">
+                        <option selected>None</option>
+                        <option value="1">C001</option>
+                        <option value="2">C002</option>
+                        <option value="3">C003</option>
+                        <option value="4">C004</option>
+                        <option value="5">C005</option>
+                        <option value="6">C006</option>
+                        <option value="7">C007</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label class="form-label">Customer Salary : </label>
+                    <input class="form-control" type="number" value="" aria-label="Disabled input example" disabled
+                           readonly>
+                </div>
+                <div class="col-11">
+                    <label class="form-label">Customer Name : </label>
+                    <input class="form-control" type="text" value="" aria-label="Disabled input example" disabled
+                           readonly>
+                </div>
+                <div class="col-11 mb-3">
+                    <label class="form-label">Customer Address : </label>
+                    <input class="form-control" type="text" value="" aria-label="Disabled input example" disabled
+                           readonly>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  item -->
+
+    <div class="container card ps-0 pe-0 col-md-3 ms-3 row col-sm-12">
+        <h5 class="card-header bg-info">Item</h5>
+        <div class="card-body border-0 p-0">
+            <div class="row g-2 mt-1 ms-2">
+                <div class="col-5">
+                    <label class="form-label">Select Item Id : </label>
+                    <select class="form-select" aria-label="">
+                        <option selected>None</option>
+                        <option value="1">I001</option>
+                        <option value="2">I002</option>
+                        <option value="3">I003</option>
+                        <option value="4">I004</option>
+                        <option value="5">I005</option>
+                        <option value="6">I006</option>
+                        <option value="7">I007</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label class="form-label">Qty On Hand : </label>
+                    <input class="form-control" type="number" value="" aria-label="Disabled input example" disabled
+                           readonly>
+                </div>
+                <div class="col-11">
+                    <label class="form-label">Item Name : </label>
+                    <input class="form-control" type="text" value="" aria-label="Disabled input example" disabled
+                           readonly>
+                </div>
+                <div class="col-4">
+                    <label class="form-label">Unit Price : </label>
+                    <input class="form-control" type="number" value="" aria-label="Disabled input example" disabled
+                           readonly>
+                </div>
+                <div class="col-3">
+                    <label class="form-label">Qty : </label>
+                    <input type="number" class="form-control" placeholder="" aria-label="">
+                </div>
+                <div class="col-5" style="margin-top: 30%">
+                    <button type="button" class="btn btn-warning">+ Add To Cart</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--  order -->
+
+    <div class="container card ps-0 pe-0 col-md-4 ms-3 row col-sm-12">
+        <h5 class="card-header bg-success">Bill</h5>
+        <div class="card-body border-0 p-0">
+            <h5 class="mt-3 ms-6 col-5 text-secondary text-start fs-3" style="display: inline-block">Total : Rs</h5>
+            <h5 class="mt-3 col-6 text-danger text-start fs-3" style="display: inline-block"> 00.00 /=</h5>
+            <h5 class="mt-3 ms-4 col-5 text-secondary text-start fs-3" style="display: inline-block">Sub Total : Rs</h5>
+            <h5 class="mt-3 col-5 text-danger text-start fs-3" style="display: inline-block"> 00.00 /=</h5>
+
+            <div class="row col-12 mt-2">
+                <div class="col-7 ms-3">
+                    <label class="form-label">Cash : </label>
+                    <input type="number" class="form-control" placeholder="Ex: 1000.00" aria-label="">
+                </div>
+                <div class="col-4">
+                    <label class="form-label">Discount : </label>
+                    <input type="number" class="form-control" placeholder="Ex: 5" aria-label="">
+                </div>
+                <div class="col-11 ms-3 mt-3">
+                    <label class="form-label">Balance : </label>
+                    <input type="number" class="form-control" placeholder="Ex: 100.00" aria-label="">
+                </div>
+                <button type="button" class="btn btn-outline-warning btn-lg col-11 ms-4 mt-4 mb-3 h-50">Confirm Order</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- table-->
+
+    <div class="container mt-2 justify-content-center col-md-12 col-sm-12">
+        <table class="table table-hover table-bordered">
+            <thead class="table-primary">
+            <tr>
+                <th scope="col" class="text-center">Date</th>
+                <th scope="col" class="text-center">Item Code</th>
+                <th scope="col" class="text-center">Customer Id</th>
+                <th scope="col" class="text-center">Unit Price</th>
+                <th scope="col" class="text-center">Quantity Bought</th>
+                <th scope="col" class="text-center"> Total </th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>2022-06-16</td>
+                <td>I001</td>
+                <td>C001</td>
+                <td>RS. 250</td>
+                <td>35</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>2022-06-18</td>
+                <td>I002</td>
+                <td> C002</td>
+                <td>RS. 210</td>
+                <td>10</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>2022-06-23</td>
+                <td>I003</td>
+                <td>C003</td>
+                <td>RS. 170</td>
+                <td>30</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>2022-06-25</td>
+                <td>I004</td>
+                <td> C004</td>
+                <td>RS. 300</td>
+                <td>10</td>
+                <td>35</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</main>
 
 <script src="../spa/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="../spa/assets/js/jquery-3.6.1.min.js"></script>
