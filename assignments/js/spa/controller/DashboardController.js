@@ -19,3 +19,10 @@ $('#btn_Item').click(function () {
     $('#header_container').css('visibility', 'visible');
     $('#item_main_container').css('visibility', 'visible');
 });
+
+//  orders btn on action
+$('#btn_Manage_Orders').click(function () {
+    $('#dashboard_main_container').css('visibility', 'hidden');
+    $('#header_container').css('visibility', 'visible');
+    $('#orders_main_container').css('visibility', 'visible');
+});
