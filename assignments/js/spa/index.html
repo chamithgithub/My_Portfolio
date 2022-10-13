@@ -302,10 +302,81 @@
 
 
 </main>
+<!--item form-->
+<main id="item_main_container" class="container-fluid bg-light row me-0 pe-0 ms-0 ps-0 justify-content-around">
+
+    <!--heading-->
+    <h1 class="fw-semibold  col-12 pt-4 pb-2 ps-4">MANAGE ITEMS</h1>
+
+    <!--search-->
+    <div class="container card ps-0 pe-0 col-md-5 ms-3 row col-sm-12">
+        <h5 class="card-header bg-primary">Search Item</h5>
+        <div class="card-body border-0 p-0">
+            <div style="margin-top: 17px;" class="d-flex col-8 ms-3" role="search">
+                <input id="txt_Search_Item_Code" class="form-control me-2" type="search" placeholder="Search"
+                       aria-label="Search">
+                <button id="btn_Search_Item" class="btn btn-outline-success" type="submit">Search</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!--crud btn-->
+    <div class="container row col-md-6 gap-3 mt-3 mb-3 justify-content-center col-sm-12">
+        <button id="btn_Add_Item" type="button" class="btn btn-outline-success col-5" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop4">+ Add New Item
+        </button>
+
+    </div>
+
+    <!-- save item modal -->
+    <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h5 class="modal-title" id="staticBackdropLabel4">+ Add New Item</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--save item input form-->
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Item Code : </label>
+                        <input id="txt_Item_Code" type="text" class="form-control" id="formGroupExampleInput9"
+                               placeholder="Ex: I001">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Add_Item_Reg_ID"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Item Name :</label>
+                        <input id="txt_Item_Name" type="text" class="form-control" id="formGroupExampleInput10"
+                               placeholder="Ex: Rice">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Add_Item_Reg_Name"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Price Per Unit :</label>
+                        <input id="txt_Price_Per_Unit" type="text" class="form-control" id="formGroupExampleInput11"
+                               placeholder="Ex: Rs. 210">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Add_Item_Reg_PPU"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Quantity On Hand :</label>
+                        <input id="txt_QTY_On_Hand" type="text" class="form-control" id="formGroupExampleInput12"
+                               placeholder="Ex: 500">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Add_Item_Reg_QOH"></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button id="btn_Add_New_Item" type="button" class="btn btn-outline-success">Save Item</button>
+                    <button type="button" class="btn bg-danger" data-bs-dismiss="modal">Cancel</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-
-
+</main>
 
 <script src="../spa/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="../spa/assets/js/jquery-3.6.1.min.js"></script>
