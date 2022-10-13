@@ -141,17 +141,109 @@
                 data-bs-target="#staticBackdrop">+ Add New Customer
         </button>
         <button id="btn_Update_Customer" type="button" class="btn btn-outline-warning col-5" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop2" disabled>Update Customer
+                data-bs-target="#staticBackdrop2" >Update Customer
         </button>
         <button id="btn_Delete_Customer" type="button" class="btn btn-outline-danger col-5" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop3" disabled>- Delete Customer
+                data-bs-target="#staticBackdrop3" >- Delete Customer
         </button>
-        <button id="btn_Get_All_Customers" type="button" class="btn btn-outline-primary col-5">View All Customers
+        <button id="btn_Get_All_Customers" type="button" class="btn btn-outline-primary col-5">Get All Customers
         </button>
+
+    </div>
+
+    <!-- save customer modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h5 class="modal-title" id="staticBackdropLabel">+ Add New Customer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--save customer input form-->
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Customer ID : </label>
+                        <input id="txt_Cus_ID" type="text" class="form-control" id="formGroupExampleInput"
+                               placeholder="Ex: C001">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Add_Cust_Reg_ID"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Customer Name :</label>
+                        <input id="txt_Cus_Name" type="text" class="form-control" id="formGroupExampleInput2"
+                               placeholder="Ex: Kamal Gunarathna">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Add_Cust_Reg_Name"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Customer Address :</label>
+                        <input id="txt_Cus_Address" type="text" class="form-control" id="formGroupExampleInput3"
+                               placeholder="Ex: Kalutara">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Add_Cust_Reg_Address"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Customer Salary :</label>
+                        <input id="txt_Cus_Salary" type="text" class="form-control" id="formGroupExampleInput4"
+                               placeholder="Ex: Rs.90 000">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Add_Cust_Reg_Salary"></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" id="btn_Add_New_Customer" >Save</button>
+                    <button  type="button" class="btn btn-danger" data-bs-dismiss="modal" id="btnCloseCus">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--update customer model-->
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning">
+                    <h5 class="modal-title" id="staticBackdropLabel2">Update Customer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--update customer input form-->
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Customer ID :</label>
+                        <input id="txt_Update_Cus_ID" type="text" class="form-control" id="formGroupExampleInput5"
+                               placeholder="Ex: C001">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Update_Cust_Reg_ID"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Customer Name :</label>
+                        <input id="txt_Update_Cus_Name" type="text" class="form-control" id="formGroupExampleInput6"
+                               placeholder="Ex: Kamal Gunarathna">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Update_Cust_Reg_Name"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Customer Address :</label>
+                        <input id="txt_Update_Cus_Address" type="text" class="form-control" id="formGroupExampleInput7"
+                               placeholder="Ex: Kalutara">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Update_Cust_Reg_Address"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Customer Salary :</label>
+                        <input id="txt_Update_Cus_Salary" type="text" class="form-control" id="formGroupExampleInput8"
+                               placeholder="Ex: Rs.90 000">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Update_Cust_Reg_Salary"></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                        <button id="btn_Update_Customer_Details" type="button" class="btn btn-info">Update</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 
 
 </main>
+
 
 
 
