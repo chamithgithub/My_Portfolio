@@ -33,3 +33,17 @@ $('#btn_Place_Order').click(function () {
     $('#header_container').css('visibility', 'visible');
     $('#place_order_main_container').css('visibility', 'visible');
 });
+
+//-------------------------------header home nav++++++++++++++++
+
+//-------------------------------header home nav++++++++++++++++
+
+$('#btn_To_Home').click(function () {
+    $('#header_container').css('visibility', 'hidden');
+    $('#customer_main_container').css('visibility', 'hidden');
+    $('#item_main_container').css('visibility', 'hidden');
+    $('#orders_main_container').css('visibility', 'hidden');
+    $('#place_order_main_container').css('visibility', 'hidden');
+    $('#dashboard_main_container').css('visibility', 'visible');
+});
+
