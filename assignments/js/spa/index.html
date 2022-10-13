@@ -329,6 +329,11 @@
         <button id="btn_Update_Item" type="button" class="btn btn-outline-warning col-5" data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop5" >Update Item
         </button>
+        <button id="btn_Delete_Item" type="button" class="btn btn-outline-danger col-5" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop6" >- Delete Item
+        </button>
+        <button id="btn_Get_All_Items" type="button" class="btn btn-outline-primary col-5">Get All Items
+        </button>
     </div>
 
     <!-- save item modal -->
@@ -420,7 +425,52 @@
             </div>
         </div>
     </div>
+    <!--delete item model-->
+    <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-top">
+            <div class="modal-content">
+                <div class="modal-header bg-danger">
+                    <h5 class="modal-title" id="staticBackdropLabel6">Delete Item</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Delete this item?</label>
+                        <br>
+                        <label for="formGroupExampleInput" class="form-label fw-semibold">Item Code : </label>
+                        <label id="lbl_Item_Code" for="formGroupExampleInput" class="form-label fw-semibold"></label>
+                        <br>
+                        <label for="formGroupExampleInput" class="form-label fw-semibold">Item Name : </label>
+                        <label id="lbl_Item_Name" for="formGroupExampleInput"
+                               class="form-label fw-semibold"></label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="btn_Delete_Item_Details" type="button" class="btn btn-outline-danger">  Yes
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!--item  table-->
+    <div class="container mt-5 justify-content-center col-md-12 col-sm-12">
+        <table class="table table-hover table-bordered">
+            <thead class="table-primary">
+            <tr>
+                <th scope="col" class="text-center">Item Code</th>
+                <th scope="col" class="text-center">Item Name</th>
+                <th scope="col" class="text-center">Unit Price</th>
+                <th scope="col" class="text-center">Qty On Hand</th>
+            </tr>
+            </thead>
+            <tbody id="tbl_Item_Body">
+
+            </tbody>
+        </table>
+    </div>
 </main>
 
 <script src="../spa/assets/bootstrap/js/bootstrap.min.js"></script>
