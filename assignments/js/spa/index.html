@@ -326,7 +326,9 @@
         <button id="btn_Add_Item" type="button" class="btn btn-outline-success col-5" data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop4">+ Add New Item
         </button>
-
+        <button id="btn_Update_Item" type="button" class="btn btn-outline-warning col-5" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop5" >Update Item
+        </button>
     </div>
 
     <!-- save item modal -->
@@ -374,7 +376,50 @@
             </div>
         </div>
     </div>
-
+    <!--update item modal-->
+    <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning">
+                    <h5 class="modal-title" id="staticBackdropLabel5">Update Item</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--input form-->
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Item Code : </label>
+                        <input id="txt_Update_Item_Code" type="text" class="form-control" id="formGroupExampleInput13"
+                               placeholder="Ex: I001">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Update_Item_Reg_ID"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Item Name :</label>
+                        <input id="txt_Update_Item_Name" type="text" class="form-control" id="formGroupExampleInput14"
+                               placeholder="Ex: Rice">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Update_Item_Reg_Name"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Price Per Unit :</label>
+                        <input id="txt_Update_Price_Per_Unit" type="text" class="form-control"
+                               id="formGroupExampleInput15"
+                               placeholder="Ex: Rs. 210">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Update_Item_Reg_PPU"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Quantity On Hand :</label>
+                        <input id="txt_Update_QTY_On_Hand" type="text" class="form-control" id="formGroupExampleInput16"
+                               placeholder="Ex: 500">
+                        <span class="control-error fw-light fs-6 text-danger" id="lbl_Update_Item_Reg_QOH"></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="btn_Update_Item_Details" type="button" class="btn btn-outline-warning">Update Item</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </main>
 
