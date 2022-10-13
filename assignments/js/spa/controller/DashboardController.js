@@ -27,3 +27,9 @@ $('#btn_Manage_Orders').click(function () {
     $('#orders_main_container').css('visibility', 'visible');
 });
 
+// place order btn on action
+$('#btn_Place_Order').click(function () {
+    $('#dashboard_main_container').css('visibility', 'hidden');
+    $('#header_container').css('visibility', 'visible');
+    $('#place_order_main_container').css('visibility', 'visible');
+});
