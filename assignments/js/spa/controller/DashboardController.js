@@ -77,3 +77,12 @@ $('#btn_To_Orders').click(function () {
     $('#item_main_container').css('visibility', 'hidden');
 });
 
+//header placeOrder nav
+$('#btn_To_placeOrders').click(function () {
+    $('#customer_main_container').css('visibility', 'hidden');
+    $('#manage_orders_main_container').css('visibility', 'hidden');
+    $('#place_order_main_container').css('visibility', 'visible');
+    $('#dashboard_main_container').css('visibility', 'hidden');
+    $('#header_container').css('visibility', 'visible');
+    $('#item_main_container').css('visibility', 'hidden');
+});
