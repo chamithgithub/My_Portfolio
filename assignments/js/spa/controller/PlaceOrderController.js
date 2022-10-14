@@ -145,3 +145,20 @@ $(window).on('load', function () {
     $('#cbxSelectOrderID').val("O00-" + idNum);
 })
 
+//set customer details
+$('#cbxSelectCustID').on('keydown', function (event) {
+    if (event.key == "Enter") {
+        //clear before adding
+        $('#txtCusName,#txtCusAddress,#txtCusSalary').val("");
+        //search customer
+        var customer = searchCustomerByID($(this).val());
+        if (customer == null) {
+            alert("No such customer found.");
+        } else {
+            $('#txtCusName').val(customer.name);
+            $('#txtCusAddress').val(customer.address);
+            $('#txtCusSalary').val(customer.salary);
+        }
+    }
+});
+
