@@ -20,9 +20,10 @@
             cursor: pointer;
             background: linear-gradient(45deg, rgba(16, 238, 197, 0.5), rgba(214, 14, 71, 0.5) 100%);
         }
-#dashboard_main_container{
-    background-image: url("../spa/assets/img/abstract-blur-supermarket.jpg");
-}
+
+        #dashboard_main_container {
+            background-image: url("../spa/assets/img/abstract-blur-supermarket.jpg");
+        }
     </style>
 </head>
 
@@ -69,7 +70,7 @@
 <body>
 
 <!-- home-->
-<main id="dashboard_main_container"  class="container-fluid row me-0 pe-0 ms-0 ps-0 mt-5 overflow-hidden">
+<main id="dashboard_main_container" class="container-fluid row me-0 pe-0 ms-0 ps-0 mt-5 overflow-hidden">
 
     <!--headings-->
     <div class="container col-md-6 col-sm-12 text-center">
@@ -143,10 +144,10 @@
                 data-bs-target="#staticBackdrop">+ Add New Customer
         </button>
         <button id="btn_Update_Customer" type="button" class="btn btn-outline-warning col-5" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop2" >Update Customer
+                data-bs-target="#staticBackdrop2">Update Customer
         </button>
         <button id="btn_Delete_Customer" type="button" class="btn btn-outline-danger col-5" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop3" >- Delete Customer
+                data-bs-target="#staticBackdrop3">- Delete Customer
         </button>
         <button id="btn_Get_All_Customers" type="button" class="btn btn-outline-primary col-5">Get All Customers
         </button>
@@ -190,8 +191,8 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-success" id="btn_Add_New_Customer" >Save</button>
-                    <button  type="button" class="btn btn-danger" data-bs-dismiss="modal" id="btnCloseCus">Close</button>
+                    <button type="button" class="btn btn-outline-success" id="btn_Add_New_Customer">Save</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="btnCloseCus">Close</button>
                 </div>
             </div>
         </div>
@@ -234,8 +235,9 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                        <button id="btn_Update_Customer_Details" type="button" class="btn btn-outline-warning">Update</button>
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button id="btn_Update_Customer_Details" type="button" class="btn btn-outline-warning">Update
+                    </button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
 
                     </button>
                 </div>
@@ -263,18 +265,25 @@
                                class="form-label fw-semibold"></label>
                     </div>
                 </div>
+
                 <div class="modal-footer">
-                    <button id="btn_Delete_Customer_Details" type="button" class="btn btn-outline-danger">Delete</button>
-                    <button  type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+
+                    <button id="btn_Delete_Customer_Details" type="button" class="btn btn-outline-danger">Delete
+                    </button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                     </button>
                 </div>
             </div>
         </div>
     </div>
+
     <!--customer details table-->
+
     <div class="container mt-5 justify-content-center col-md-12 col-sm-12">
-        <table class="table table-danger ">
+        <table class="table table-danger">
+
             <thead class="table-success">
+
             <tr>
                 <th scope="col" class="text-center">Customer ID</th>
                 <th scope="col" class="text-center"> Name</th>
@@ -282,25 +291,26 @@
                 <th scope="col" class="text-center"> Salary</th>
             </tr>
             </thead>
+
             <tbody id="tbl_Customer_Body">
 
-            <tr>
-                <th>C001</th>
-                <td>kamal</td>
-                <td>matara</td>
-                <td>30 000</td>
-            </tr>
-            <tr>
-                <th>C002</th>
-                <td>nimal</td>
-                <td>galle</td>
-                <td>90 000</td>
-            </tr>
+            <!--            <tr>-->
+            <!--                <th>C001</th>-->
+            <!--                <td>kamal</td>-->
+            <!--                <td>matara</td>-->
+            <!--                <td>30 000</td>-->
+            <!--            </tr>-->
+
+            <!--            <tr>-->
+            <!--                <th>C002</th>-->
+            <!--                <td>nimal</td>-->
+            <!--                <td>galle</td>-->
+            <!--                <td>90 000</td>-->
+            <!--            </tr>-->
 
             </tbody>
         </table>
     </div>
-
 
 
 </main>
@@ -329,10 +339,10 @@
                 data-bs-target="#staticBackdrop4">+ Add New Item
         </button>
         <button id="btn_Update_Item" type="button" class="btn btn-outline-warning col-5" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop5" >Update Item
+                data-bs-target="#staticBackdrop5">Update Item
         </button>
         <button id="btn_Delete_Item" type="button" class="btn btn-outline-danger col-5" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop6" >- Delete Item
+                data-bs-target="#staticBackdrop6">- Delete Item
         </button>
         <button id="btn_Get_All_Items" type="button" class="btn btn-outline-primary col-5">Get All Items
         </button>
@@ -421,7 +431,8 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button id="btn_Update_Item_Details" type="button" class="btn btn-outline-warning">Update Item</button>
+                    <button id="btn_Update_Item_Details" type="button" class="btn btn-outline-warning">Update Item
+                    </button>
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
                 </div>
             </div>
@@ -449,7 +460,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button id="btn_Delete_Item_Details" type="button" class="btn btn-outline-danger">  Yes
+                    <button id="btn_Delete_Item_Details" type="button" class="btn btn-outline-danger"> Yes
                         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                     </button>
                 </div>
@@ -502,7 +513,8 @@
         <h5 class="card-header bg-danger">Search Order</h5>
         <div class="card-body border-0 p-0">
             <form style="margin-top: 17px;" class="d-flex col-8 ms-3" role="search">
-                <input id="txtInputSearchOrderID" class="form-control me-2" type="search" placeholder="Enter Order ID" aria-label="Search">
+                <input id="txtInputSearchOrderID" class="form-control me-2" type="search" placeholder="Enter Order ID"
+                       aria-label="Search">
                 <button id="btnSearchOrder" class="btn btn-outline-success" type="submit">Search</button>
             </form>
 
@@ -515,7 +527,8 @@
                 data-bs-target="#staticBackdrop7">Update Order
         </button>
         <button id="btnDeleteItemFromOrder" type="button" class="btn btn-outline-danger col-4" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop8">- Delete Order</button>
+                data-bs-target="#staticBackdrop8">- Delete Order
+        </button>
         <button id="btnViewAllOrders" type="button" class="btn btn-outline-primary col-8">Get All Orders
         </button>
     </div>
@@ -559,10 +572,11 @@
                 <div class="modal-body">
                     <div class="mb-3">
                         <label for="formGroupExampleInput" class="form-label">
-                            Remove this  order?</label>
+                            Remove this order?</label>
                         <br>
                         <label for="formGroupExampleInput2" class="form-label fw-semibold">Code : </label>
-                        <label id="lbl_Order_Remove_Item_Code" for="formGroupExampleInput" class="form-label fw-semibold"></label>
+                        <label id="lbl_Order_Remove_Item_Code" for="formGroupExampleInput"
+                               class="form-label fw-semibold"></label>
                         <br>
                         <label for="formGroupExampleInput" class="form-label fw-semibold">Name : </label>
                         <label id="lbl_Order_Remove_Item_Name" for="formGroupExampleInput"
@@ -571,7 +585,7 @@
                 </div>
                 <div class="modal-footer">
                     <button id="btn_Delete_Item_From_Order" type="button" class="btn btn-outline-danger">Delete
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
 
                     </button>
                 </div>
@@ -614,7 +628,7 @@
     </div>
 </main>
 
-<main id="place_order_main_container" class="container-fluid bg-light row me-0  pe-0 ms-0 ps-0"style="margin-top: 6%">
+<main id="place_order_main_container" class="container-fluid bg-light row me-0  pe-0 ms-0 ps-0" style="margin-top: 6%">
     <br>
     <br>
     <h1 class="bg-danger">Place Order</h1>
@@ -743,7 +757,8 @@
                     <label class="form-label">Balance : </label>
                     <input type="number" class="form-control" placeholder="Ex: 100.00" aria-label="">
                 </div>
-                <button type="button" class="btn btn-outline-warning btn-lg col-11 ms-4 mt-4 mb-3 h-50">Confirm Order</button>
+                <button type="button" class="btn btn-outline-warning btn-lg col-11 ms-4 mt-4 mb-3 h-50">Confirm Order
+                </button>
             </div>
         </div>
     </div>
@@ -759,7 +774,7 @@
                 <th scope="col" class="text-center">Customer Id</th>
                 <th scope="col" class="text-center">Unit Price</th>
                 <th scope="col" class="text-center">Quantity Bought</th>
-                <th scope="col" class="text-center"> Total </th>
+                <th scope="col" class="text-center"> Total</th>
 
             </tr>
             </thead>
@@ -807,7 +822,7 @@
 
 
 <script src="controller/DashboardController.js"></script>
-<script src="controller/Validations.js"></script>
-
+<!--<script src="controller/Validations.js"></script>-->
+<script src="controller/CustomerController.js"></script>
 </body>
 </html>
