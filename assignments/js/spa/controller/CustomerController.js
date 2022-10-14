@@ -1,6 +1,5 @@
 
 // array
-
 var customerArr = [];
 
 $('#btn_Add_New_Customer').click(function () {
