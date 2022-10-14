@@ -32,4 +32,6 @@ My Personal Web Page
 
 Sitemap ---->https://www.gloomaps.com/DxvZh4vpry
 
+Wireframe ---->https://wireframe.cc/00pg0g
+
 Mock-up ---->https://www.figma.com/file/WymzVzVNQ0S8QxdJgED3vi/Boostrap-pos-system?node-id=0%3A1
