@@ -22,8 +22,4 @@ My Personal Web Page
 
 *Transition
 
----------POS System --------
 
-Sitemap ---->https://www.gloomaps.com/DxvZh4vpry
-
-Mock-up ---->https://www.figma.com/file/WymzVzVNQ0S8QxdJgED3vi/Boostrap-pos-system?node-id=0%3A1
