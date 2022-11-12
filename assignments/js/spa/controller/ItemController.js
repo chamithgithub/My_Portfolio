@@ -180,7 +180,8 @@ function loadAllItems() {
     $('#tbl_Item_Body').empty();
 
     for (var item of itemArr) {
-        var row = "<tr><td>" + item.id + "</td><td>" + item.name + "</td><td>" + item.price_per_unit + "</td><td>" + item.qty_On_Hand + "</td></tr>";
+        var row = "<tr><td>" + item.id + "</td><td>" + item.name + "</td>" +
+            "<td>" + item.price_per_unit + "</td><td>" + item.qty_On_Hand + "</td></tr>";
 
         // add to the table
         $('#tbl_Item_Body').append(row);
