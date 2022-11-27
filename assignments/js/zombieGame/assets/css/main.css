@@ -68,6 +68,15 @@ body {
     text-align: center;
 }
 
+
+#game-over-menu {
+    display: none;
+}
+
+#play-game-menu {
+    display: block;
+}
+
 .game-menu{
     background-image: url("../img/menuback.jpg");
     opacity:80%;
