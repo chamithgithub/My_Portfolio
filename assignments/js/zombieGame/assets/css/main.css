@@ -92,3 +92,67 @@ body {
     margin-top: 20vw;
     margin-left: 10vw;
 }
+.bullet {
+    position: absolute;
+    left: 0vw;
+    right: 0;
+    margin: auto;
+    bottom: 5.2vw;
+    width: 0.6vw;
+    height: 0.5vw;
+    background: url("../img/bullet.png");
+    transform: rotate(270deg);
+    background-size: cover;
+
+}
+
+.enemy-back {
+    position: absolute;
+    height: 6vw;
+    width: 9vw;
+    top: 0;
+    background-image: url("../img/zombie_01_walk.gif");
+    background-size: cover;
+    transform: rotate(90deg);
+
+    animation-name: rotate-enemy;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+}
+
+
+@keyframes rotate-enemy {
+    from {
+
+    }
+    to {
+        transform: rotate(100deg);
+    }
+}
+
+
+.explosion {
+    position: absolute;
+    height: 14vw;
+    width: 20vw;
+    margin-left: -5vw;
+    margin-top: -5vw;
+    background-image: url("../img/death.gif");
+    background-size: cover;
+    transform: rotate(90deg);
+
+    animation-name: explode-enemy;
+    animation-iteration-count: 1;
+    animation-duration: 10ms;
+}
+
+@keyframes explode-enemy {
+    from {
+
+    }
+    to {
+        transform: rotate(80deg);
+    }
+}
