@@ -1,7 +1,10 @@
 # My_Portfolio
 
 
-My Personal Web Page
+### My Personal Web Page Sample Snap
+
+![Image of MyProfile](assets/img/snap1)
+
 
 <a href="https://github.com/chamithgithub" target="_blank">GitHub</a>
 
@@ -12,26 +15,35 @@ My Personal Web Page
 <a href="https://www.figma.com/file/eMuo0dbXzeHLaVPW8OoGWX/portfolio?node-id=0%3A1" target="_blank">Mock-Up</a>
 
 <a href="https://chamithgithub.github.io/My_Portfolio/" target="_blank">My_Portfolio</a>
- 
+
+##Teach/Framework Used
+
+* HTML
+  
+* CSS
+  
+* Java Script
 
 # ASSIGNMENTS
 
-*Animation
+* Animation
 
 
-*Basic
+* Basic
 
 
-*Framework
+* Framework
 
 
-*Transition
+* Transition
 
 
----------POS System --------
+###---------POS System --------
 
 Sitemap ---->https://www.gloomaps.com/DxvZh4vpry
 
 Wireframe ---->https://wireframe.cc/00pg0g
 
 Mock-up ---->https://www.figma.com/file/WymzVzVNQ0S8QxdJgED3vi/Boostrap-pos-system?node-id=0%3A1
+
+*Developed By _A.C.Dilshan*
