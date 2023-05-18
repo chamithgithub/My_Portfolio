@@ -3,8 +3,7 @@
 
 ### My Personal Web Page Sample Snap
 
-![Image of MyProfile](assets/img/snap1)
-
+![Image of MyProfile](assets/img/snap1.PNG)
 
 <a href="https://github.com/chamithgithub" target="_blank">GitHub</a>
 
